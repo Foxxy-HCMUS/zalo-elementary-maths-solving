@@ -1,7 +1,7 @@
-./cache
+cache/
 
-./processed_train*.hf
+processed_train*.hf/
 
-./model_v*
+best_model/
 
-./checkpoints_*
+checkpoints/
