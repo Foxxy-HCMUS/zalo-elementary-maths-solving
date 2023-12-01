@@ -1,0 +1,2976 @@
+[
+    {
+        "id": "01-0203",
+        "question": "A store sold 30% of its existing stock and earned VND15, 000, 000. Ask how much money the store earned if it sold out?",
+        "choices": [
+            "A. 4 500 000 VND",
+            "B. 45 000 000 VND",
+            "C. 50 000 000 VND",
+            "D. 450 000 000 VND"
+        ],
+        "eng_choices": [
+            "A. 4 500 000 VND",
+            "B. 45 000 000 VND",
+            "C. 50 000 000 VND",
+            "D. 450 000 000 VND"
+        ]
+    },
+    {
+        "id": "01-0206",
+        "question": "A cyclist from A started at 7 o'clock at 12km/h. At 8 o'clock a motorcyclist from A also chased the cyclist at 42km/h. What time did the motorcyclist catch up with the cyclist?",
+        "choices": [
+            "A. 24 minutes",
+            "B. 1 hours",
+            "C. 7 hours 24 minutes",
+            "D. 8 hours 24 minutes"
+        ],
+        "eng_choices": [
+            "A. 24 minutes",
+            "B. 1 hours",
+            "C. 7 hours 24 minutes",
+            "D. 8 hours 24 minutes"
+        ]
+    },
+    {
+        "id": "01-0207",
+        "question": "If the side of the cube is 2 times larger, how many times is the area around it larger?",
+        "choices": [
+            "A. 2 times",
+            "B. 4 times",
+            "C. 6 times",
+            "D. 8 times"
+        ],
+        "eng_choices": [
+            "A. 2 times",
+            "B. 4 times",
+            "C. 6 times",
+            "D. 8 times"
+        ]
+    },
+    {
+        "id": "01-0209",
+        "question": "A trapezoidal field has a small bottom of 8m long and a large bottom of 12m long. Extending the large bottom by 5m, the area of the field increases by 25m2. Ask how much the area of the field increases by?",
+        "choices": [
+            "A. 125m^{2}",
+            "B. 20%",
+            "C. 25%",
+            "D. 50%"
+        ],
+        "eng_choices": [
+            "A. 125m^{2}",
+            "B. 20%",
+            "C. 25%",
+            "D. 50%"
+        ]
+    },
+    {
+        "id": "01-0210",
+        "question": "A train that crosses a 450 meter bridge takes 45 seconds, a power pole takes 15 seconds.",
+        "choices": [
+            "A. 3m",
+            "B. 200m",
+            "C. 200m",
+            "D. 225m"
+        ],
+        "eng_choices": [
+            "A. 3m",
+            "B. 200m",
+            "C. 200m",
+            "D. 225m"
+        ]
+    },
+    {
+        "id": "01-0211",
+        "question": "The largest of the numbers: 5.216; 5.126; 5.621; 5.612 are:",
+        "choices": [
+            "A. 5,612",
+            "B. 5,621",
+            "C. 5,216",
+            "D. 5,126"
+        ],
+        "eng_choices": [
+            "A. 5,612",
+            "B. 5,621",
+            "C. 5,216",
+            "D. 5,126"
+        ]
+    },
+    {
+        "id": "01-0214",
+        "question": "The class has 35 students, including 14 female students. What percentage of the class are female students?",
+        "choices": [
+            "A. 40%",
+            "B. 4%",
+            "C. 21%",
+            "D. 49%"
+        ],
+        "eng_choices": [
+            "A. 40%",
+            "B. 4%",
+            "C. 21%",
+            "D. 49%"
+        ]
+    },
+    {
+        "id": "01-0219",
+        "question": "4 hours 45 minutes + 3 hours 32 minutes =.......",
+        "choices": [
+            "A. 7 hours 17 minutes",
+            "B. 7 hours 77 minutes",
+            "C. 8 hours 17 minutes",
+            "D. 7 hours 77 minutes"
+        ],
+        "eng_choices": [
+            "A. 7 hours 17 minutes",
+            "B. 7 hours 77 minutes",
+            "C. 8 hours 17 minutes",
+            "D. 7 hours 77 minutes"
+        ]
+    },
+    {
+        "id": "01-0221",
+        "question": "The number \\frac{75}{100} is written:",
+        "choices": [
+            "A. 75",
+            "B. 0,7",
+            "C. 0,75",
+            "D. 7,5"
+        ],
+        "eng_choices": [
+            "A. 75",
+            "B. 0,7",
+            "C. 0,75",
+            "D. 7,5"
+        ]
+    },
+    {
+        "id": "01-0222",
+        "question": "The number sixty - seven point nine hundred and nineteen is written:",
+        "choices": [
+            "A. 67,910",
+            "B. 679",
+            "C. 67,919",
+            "D. 6,7919"
+        ],
+        "eng_choices": [
+            "A. 67,910",
+            "B. 679",
+            "C. 67,919",
+            "D. 6,7919"
+        ]
+    },
+    {
+        "id": "01-0223",
+        "question": "Find 80% of 30 is:",
+        "choices": [
+            "A. 80",
+            "B. 24",
+            "C. 30",
+            "D. 50"
+        ],
+        "eng_choices": [
+            "A. 80",
+            "B. 24",
+            "C. 30",
+            "D. 50"
+        ]
+    },
+    {
+        "id": "01-0224",
+        "question": "39.87m^{3} =...........dm^{3}. The appropriate number written in the dot place is:",
+        "choices": [
+            "A. 3978",
+            "B. 39,87",
+            "C. 398,7",
+            "D. 39870"
+        ],
+        "eng_choices": [
+            "A. 3978",
+            "B. 39,87",
+            "C. 398,7",
+            "D. 39870"
+        ]
+    },
+    {
+        "id": "01-0225",
+        "question": "The value of the 7th digit in 32,708 is:",
+        "choices": [
+            "A. 70",
+            "B. \\frac{7}{10}",
+            "C. \\frac{7}{100}",
+            "D. \\frac{7}{1000}"
+        ],
+        "eng_choices": [
+            "A. 70",
+            "B. \\frac{7}{10}",
+            "C. \\frac{7}{100}",
+            "D. \\frac{7}{1000}"
+        ]
+    },
+    {
+        "id": "01-0227",
+        "question": "The 5 digits of 162.57 indicate:",
+        "choices": [
+            "A. 5 units",
+            "B. Five percent.",
+            "C. Five tens.",
+            "D. Five tenths."
+        ],
+        "eng_choices": [
+            "A. 5 units",
+            "B. Five percent.",
+            "C. Five tens.",
+            "D. Five tenths."
+        ]
+    },
+    {
+        "id": "01-0232",
+        "question": "A district has 320ha of coffee land and 480ha of rubber land. What percentage of the land is covered by rubber trees?",
+        "choices": [
+            "A. 150%",
+            "B. 15%",
+            "C. 1500%",
+            "D. 105%"
+        ],
+        "eng_choices": [
+            "A. 150%",
+            "B. 15%",
+            "C. 1500%",
+            "D. 105%"
+        ]
+    },
+    {
+        "id": "01-0234",
+        "question": "If the volume of cube A is 8 times that of cube B, then the ratio of the length of the sides of cube B to the length of the sides of cube A is:",
+        "choices": [
+            "A. \\frac{1}{8}",
+            "B. \\frac{1}{4}",
+            "C. \\frac{1}{2}",
+            "D. 2"
+        ],
+        "eng_choices": [
+            "A. \\frac{1}{8}",
+            "B. \\frac{1}{4}",
+            "C. \\frac{1}{2}",
+            "D. 2"
+        ]
+    },
+    {
+        "id": "01-0237",
+        "question": "Write the appropriate number in the dot: 21 km/h =... m/min",
+        "choices": [
+            "A. 21000",
+            "B. 3500",
+            "C. 350",
+            "D. 1250"
+        ],
+        "eng_choices": [
+            "A. 21000",
+            "B. 3500",
+            "C. 350",
+            "D. 1250"
+        ]
+    },
+    {
+        "id": "01-0239",
+        "question": "5m^{3} 19dm^{3} =........m^{3}. The proper number written on the dot is:",
+        "choices": [
+            "A. 5,190",
+            "B. 5,019",
+            "C. 5019",
+            "D. 5190"
+        ],
+        "eng_choices": [
+            "A. 5,190",
+            "B. 5,019",
+            "C. 5019",
+            "D. 5190"
+        ]
+    },
+    {
+        "id": "01-0240",
+        "question": "0.12 hours \\div 2 \\times 3 has the result that:",
+        "choices": [
+            "A. 0,02 hours",
+            "B. 0,2 hours",
+            "C. 0,18 hours",
+            "D. 0,018 hours"
+        ],
+        "eng_choices": [
+            "A. 0,02 hours",
+            "B. 0,2 hours",
+            "C. 0,18 hours",
+            "D. 0,018 hours"
+        ]
+    },
+    {
+        "id": "01-0241",
+        "question": "37.5% of some are 1.3875. Those are:",
+        "choices": [
+            "A. 36,992",
+            "B. 3,6992",
+            "C. 369,92",
+            "D. 0,36992"
+        ],
+        "eng_choices": [
+            "A. 36,992",
+            "B. 3,6992",
+            "C. 369,92",
+            "D. 0,36992"
+        ]
+    },
+    {
+        "id": "01-0243",
+        "question": "The 5th digit of 254, 836 indicates:",
+        "choices": [
+            "A. 50 000",
+            "B. 500 000",
+            "C. 5 000",
+            "D. 50 000 000"
+        ],
+        "eng_choices": [
+            "A. 50 000",
+            "B. 500 000",
+            "C. 5 000",
+            "D. 50 000 000"
+        ]
+    },
+    {
+        "id": "01-0245",
+        "question": "The class had 32 students, 12 girls. Ask how many percent of the class were girls.",
+        "choices": [
+            "A. 34,5",
+            "B. 35,4",
+            "C. 37,4",
+            "D. 37,5"
+        ],
+        "eng_choices": [
+            "A. 34,5",
+            "B. 35,4",
+            "C. 37,4",
+            "D. 37,5"
+        ]
+    },
+    {
+        "id": "01-0246",
+        "question": "The value of the expression: 15 \\div 1.5 + 2.5 \\times 0.2 is:",
+        "choices": [
+            "A. 1,05",
+            "B. 15",
+            "C. 10,05",
+            "D. 10,5"
+        ],
+        "eng_choices": [
+            "A. 1,05",
+            "B. 15",
+            "C. 10,05",
+            "D. 10,5"
+        ]
+    },
+    {
+        "id": "01-0249",
+        "question": "The appropriate number of filling dots to 3ton5kg =...... tons is:",
+        "choices": [
+            "A. 30,5",
+            "B. 30,05",
+            "C. 3,005",
+            "D. 3,05"
+        ],
+        "eng_choices": [
+            "A. 30,5",
+            "B. 30,05",
+            "C. 3,005",
+            "D. 3,05"
+        ]
+    },
+    {
+        "id": "01-0254",
+        "question": "1.5 hours =... minutes",
+        "choices": [
+            "A. 1 hours 2 minutes",
+            "B. 1 hours 5 minutes",
+            "C. 90 minutes",
+            "D. 1 hours 50 minutes"
+        ],
+        "eng_choices": [
+            "A. 1 hours 2 minutes",
+            "B. 1 hours 5 minutes",
+            "C. 90 minutes",
+            "D. 1 hours 50 minutes"
+        ]
+    },
+    {
+        "id": "01-0256",
+        "question": "Trapezoid ABCD has two lengths of 6dm and 4dm bottoms, 3dm height. Area of trapezoid ABCD is:",
+        "choices": [
+            "A. 15 dm^{2}",
+            "B. 30 dm^{2}",
+            "C. 36 dm^{2}",
+            "D. 72 dm^{2}"
+        ],
+        "eng_choices": [
+            "A. 15 dm^{2}",
+            "B. 30 dm^{2}",
+            "C. 36 dm^{2}",
+            "D. 72 dm^{2}"
+        ]
+    },
+    {
+        "id": "01-0257",
+        "question": "The circumference of a circle with diameter d = 3 dm is:",
+        "choices": [
+            "A. 9,42 dm",
+            "B. 18,84 dm",
+            "C. 28,26 dm",
+            "D. 6,14 dm"
+        ],
+        "eng_choices": [
+            "A. 9,42 dm",
+            "B. 18,84 dm",
+            "C. 28,26 dm",
+            "D. 6,14 dm"
+        ]
+    },
+    {
+        "id": "01-0258",
+        "question": "The area of a circle with radius r = 2 cm is:",
+        "choices": [
+            "A. 1,14 cm^{2}",
+            "B. 5.14 cm^{2}",
+            "C. 6,28 cm^{2}",
+            "D. 12,56 cm^{2}"
+        ],
+        "eng_choices": [
+            "A. 1,14 cm^{2}",
+            "B. 5.14 cm^{2}",
+            "C. 6,28 cm^{2}",
+            "D. 12,56 cm^{2}"
+        ]
+    },
+    {
+        "id": "01-0259",
+        "question": "13.8 m^{3} =... dm^{3}",
+        "choices": [
+            "A. 1380 dm^{3}",
+            "B. 13800 dm^{3}",
+            "C. 138 dm^{3}",
+            "D. 13008 dm^{3}"
+        ],
+        "eng_choices": [
+            "A. 1380 dm^{3}",
+            "B. 13800 dm^{3}",
+            "C. 138 dm^{3}",
+            "D. 13008 dm^{3}"
+        ]
+    },
+    {
+        "id": "01-0264",
+        "question": "What's the percentage of 32 and 50?",
+        "choices": [
+            "A. 64%",
+            "B. 65%",
+            "C. 46%",
+            "D. 63%"
+        ],
+        "eng_choices": [
+            "A. 64%",
+            "B. 65%",
+            "C. 46%",
+            "D. 63%"
+        ]
+    },
+    {
+        "id": "01-0266",
+        "question": "The appropriate number filled in the blank so that 3m^{3} 76 dm^{3} =......... m^{3} is:",
+        "choices": [
+            "A. 3,76",
+            "B. 3,760",
+            "C. 37,6",
+            "D. 3,076"
+        ],
+        "eng_choices": [
+            "A. 3,76",
+            "B. 3,760",
+            "C. 37,6",
+            "D. 3,076"
+        ]
+    },
+    {
+        "id": "01-0268",
+        "question": "The decimal number is two hundredths of a unit and seven hundredths is written as:",
+        "choices": [
+            "A. 7,201",
+            "B. 201,7",
+            "C. 201,700",
+            "D. 201,07"
+        ],
+        "eng_choices": [
+            "A. 7,201",
+            "B. 201,7",
+            "C. 201,700",
+            "D. 201,07"
+        ]
+    },
+    {
+        "id": "01-0269",
+        "question": "The largest of the numbers: 0.79; 0.789; 0.709; 0.8 is:",
+        "choices": [
+            "A. 0,79",
+            "B. 0,789",
+            "C. 0,709",
+            "D. 0,8"
+        ],
+        "eng_choices": [
+            "A. 0,79",
+            "B. 0,789",
+            "C. 0,709",
+            "D. 0,8"
+        ]
+    },
+    {
+        "id": "01-0273",
+        "question": "The time interval from 10 minutes to 7: 30 p.m. is:",
+        "choices": [
+            "A. 10 minutes",
+            "B. 20 minutes",
+            "C. 30 minutes",
+            "D. 40 minutes"
+        ],
+        "eng_choices": [
+            "A. 10 minutes",
+            "B. 20 minutes",
+            "C. 30 minutes",
+            "D. 40 minutes"
+        ]
+    },
+    {
+        "id": "01-0275",
+        "question": "The fraction \\frac{3}{4} written as a decimal is:",
+        "choices": [
+            "A. 3,4",
+            "B. 0,75",
+            "C. 4,3",
+            "D. 0,57"
+        ],
+        "eng_choices": [
+            "A. 3,4",
+            "B. 0,75",
+            "C. 4,3",
+            "D. 0,57"
+        ]
+    },
+    {
+        "id": "01-0277",
+        "question": "From 9: 00 to 9: 30: 00: there are:",
+        "choices": [
+            "A. 10 minutes",
+            "B. 20 minutes",
+            "C. 30 minutes",
+            "D. 40 minutes"
+        ],
+        "eng_choices": [
+            "A. 10 minutes",
+            "B. 20 minutes",
+            "C. 30 minutes",
+            "D. 40 minutes"
+        ]
+    },
+    {
+        "id": "01-0285",
+        "question": "12.34 \\times 100 =?",
+        "choices": [
+            "A. 0,1234",
+            "B. 1,234",
+            "C. 1234",
+            "D. 123,4"
+        ],
+        "eng_choices": [
+            "A. 0,1234",
+            "B. 1,234",
+            "C. 1234",
+            "D. 123,4"
+        ]
+    },
+    {
+        "id": "01-0292",
+        "question": "A worker making a product takes 1 minute and 12 seconds. How much time does a worker spend making 8 products?",
+        "choices": [
+            "A. 1 minutes 12 seconds",
+            "B. 8 minutes 36 seconds",
+            "C. 9 minutes 36 seconds"
+        ],
+        "eng_choices": [
+            "A. 1 minutes 12 seconds",
+            "B. 8 minutes 36 seconds",
+            "C. 9 minutes 36 seconds"
+        ]
+    },
+    {
+        "id": "01-0294",
+        "question": "3km 48m =........km. The appropriate number to fill in the dot place is:",
+        "choices": [
+            "A. 3,48",
+            "B. 3,048",
+            "C. 348",
+            "D. 3048"
+        ],
+        "eng_choices": [
+            "A. 3,48",
+            "B. 3,048",
+            "C. 348",
+            "D. 3048"
+        ]
+    },
+    {
+        "id": "01-0296",
+        "question": "A primary school has 600 students, the number of female students accounts for 55% of the school's students. The number of male students of that primary school is:",
+        "choices": [
+            "A. 270 students",
+            "B. 330 students",
+            "C. 45 students"
+        ],
+        "eng_choices": [
+            "A. 270 students",
+            "B. 330 students",
+            "C. 45 students"
+        ]
+    },
+    {
+        "id": "01-0302",
+        "question": "Calculate: 3.5 \\times \\frac{1}{4} - 1.5 \\times \\frac{1}{4}",
+        "choices": [
+            "A. 0",
+            "B. \\frac{1}{2}",
+            "C. \\frac{5}{4}",
+            "D. \\frac{1}{8}"
+        ],
+        "eng_choices": [
+            "A. 0",
+            "B. \\frac{1}{2}",
+            "C. \\frac{5}{4}",
+            "D. \\frac{1}{8}"
+        ]
+    },
+    {
+        "id": "01-0303",
+        "question": "0.2 m^{3} times 25 dm^{3} times is:",
+        "choices": [
+            "A. 0,008",
+            "B. 0,8",
+            "C. 8",
+            "D. 80"
+        ],
+        "eng_choices": [
+            "A. 0,008",
+            "B. 0,8",
+            "C. 8",
+            "D. 80"
+        ]
+    },
+    {
+        "id": "01-0305",
+        "question": "A rectangular cube has a length of 12 cm and a width of 8 cm. A cube has an average of three sides of the same size and a total area of 486 cm^{2}. Find the height of the rectangle.",
+        "choices": [
+            "A. 7 cm",
+            "B. 8 cm",
+            "C. 9 cm",
+            "D. 81 cm"
+        ],
+        "eng_choices": [
+            "A. 7 cm",
+            "B. 8 cm",
+            "C. 9 cm",
+            "D. 81 cm"
+        ]
+    },
+    {
+        "id": "01-0314",
+        "question": "Subtracting 712.54 - 48.9 would result in:",
+        "choices": [
+            "A. 70,765",
+            "B. 223,54",
+            "C. 663,64",
+            "D. 707,65"
+        ],
+        "eng_choices": [
+            "A. 70,765",
+            "B. 223,54",
+            "C. 663,64",
+            "D. 707,65"
+        ]
+    },
+    {
+        "id": "01-0315",
+        "question": "A rectangular shape has a volume of 300dm^{3}, a length of 15dm, and a width of 5dm. So the height of the rectangle is :",
+        "choices": [
+            "A. 10dm",
+            "B. 4dm",
+            "C. 8dm",
+            "D. 6dm"
+        ],
+        "eng_choices": [
+            "A. 10dm",
+            "B. 4dm",
+            "C. 8dm",
+            "D. 6dm"
+        ]
+    },
+    {
+        "id": "01-0316",
+        "question": "Write the appropriate number in the dot: 55 ha 17 m^{2} =..........ha",
+        "choices": [
+            "A. 55,17",
+            "B. 55,0017",
+            "C. 55,017",
+            "D. 55,000017"
+        ],
+        "eng_choices": [
+            "A. 55,17",
+            "B. 55,0017",
+            "C. 55,017",
+            "D. 55,000017"
+        ]
+    },
+    {
+        "id": "01-0317",
+        "question": "The class has 18 girls and 12 boys. What percentage of the class are female?",
+        "choices": [
+            "A. 150%",
+            "B. 60%",
+            "C. 40%",
+            "D. 80%"
+        ],
+        "eng_choices": [
+            "A. 150%",
+            "B. 60%",
+            "C. 40%",
+            "D. 80%"
+        ]
+    },
+    {
+        "id": "01-0321",
+        "question": "The decimal number 0.9 written as a fraction is:",
+        "choices": [
+            "A. \\frac{9}{10}",
+            "B. \\frac{9}{100}",
+            "C. \\frac{9}{1000}",
+            "D. \\frac{9}{10000}"
+        ],
+        "eng_choices": [
+            "A. \\frac{9}{10}",
+            "B. \\frac{9}{100}",
+            "C. \\frac{9}{1000}",
+            "D. \\frac{9}{10000}"
+        ]
+    },
+    {
+        "id": "01-0322",
+        "question": "25% of 120 is:",
+        "choices": [
+            "A. 25",
+            "B. 4,8",
+            "C. 480",
+            "D. 2,5"
+        ],
+        "eng_choices": [
+            "A. 25",
+            "B. 4,8",
+            "C. 480",
+            "D. 2,5"
+        ]
+    },
+    {
+        "id": "01-0324",
+        "question": "The cube has a side length of 5 meters. So the volume of that cube is:",
+        "choices": [
+            "A. 25 m^{3}",
+            "B. 125 m^{3}",
+            "C. 100 m^{3}",
+            "D. 215 m^{3}"
+        ],
+        "eng_choices": [
+            "A. 25 m^{3}",
+            "B. 125 m^{3}",
+            "C. 100 m^{3}",
+            "D. 215 m^{3}"
+        ]
+    },
+    {
+        "id": "01-0326",
+        "question": "5% of 120 is:",
+        "choices": [
+            "A. 0,06",
+            "B. 0,6",
+            "C. 6",
+            "D. 60"
+        ],
+        "eng_choices": [
+            "A. 0,06",
+            "B. 0,6",
+            "C. 6",
+            "D. 60"
+        ]
+    },
+    {
+        "id": "01-0329",
+        "question": "A car travels at 51 km/h. How many meters per minute does the car travel at?",
+        "choices": [
+            "A. 850 m/min",
+            "B. 805 m/min",
+            "C. 510 m/min",
+            "D. 5100 m/min"
+        ],
+        "eng_choices": [
+            "A. 850 m/min",
+            "B. 805 m/min",
+            "C. 510 m/min",
+            "D. 5100 m/min"
+        ]
+    },
+    {
+        "id": "01-0330",
+        "question": "The preceding digit of 9999 is:",
+        "choices": [
+            "A. 9998",
+            "B. 10 000",
+            "C. 10 001"
+        ],
+        "eng_choices": [
+            "A. 9998",
+            "B. 10 000",
+            "C. 10 001"
+        ]
+    },
+    {
+        "id": "01-0336",
+        "question": "Know that 50% of a number is 5. Ask what is that number?",
+        "choices": [
+            "A. 10",
+            "B. 20",
+            "C. 30",
+            "D. 40"
+        ],
+        "eng_choices": [
+            "A. 10",
+            "B. 20",
+            "C. 30",
+            "D. 40"
+        ]
+    },
+    {
+        "id": "01-0337",
+        "question": "In the numbers 28.3; 2.83; 38.2; 3.82 the digit 3 in the tenths place is:",
+        "choices": [
+            "A. 2,83",
+            "B. 3,82",
+            "C. 28,3",
+            "D. 38,2"
+        ],
+        "eng_choices": [
+            "A. 2,83",
+            "B. 3,82",
+            "C. 28,3",
+            "D. 38,2"
+        ]
+    },
+    {
+        "id": "01-0339",
+        "question": "20 tons =.......... tons. The appropriate number to fill in the dot place is:",
+        "choices": [
+            "A. 200 quintal",
+            "B. 0,02 quintal",
+            "C. 0,2 quintal"
+        ],
+        "eng_choices": [
+            "A. 200 quintal",
+            "B. 0,02 quintal",
+            "C. 0,2 quintal"
+        ]
+    },
+    {
+        "id": "01-0340",
+        "question": "The area of a circle with a radius of 4 dm is:",
+        "choices": [
+            "A. 5024 dm^{2}",
+            "B. 502,4 dm^{2}",
+            "C. 50,24 dm^{2}",
+            "D. 5,024 dm^{2}"
+        ],
+        "eng_choices": [
+            "A. 5024 dm^{2}",
+            "B. 502,4 dm^{2}",
+            "C. 50,24 dm^{2}",
+            "D. 5,024 dm^{2}"
+        ]
+    },
+    {
+        "id": "01-0343",
+        "question": "A rectangular shape has a volume of 300dm^{3}, a length of 15dm, and a width of 5dm. So the height of the rectangle is:",
+        "choices": [
+            "A. 10dm",
+            "B. 4dm",
+            "C. 8dm",
+            "D. 6dm"
+        ],
+        "eng_choices": [
+            "A. 10dm",
+            "B. 4dm",
+            "C. 8dm",
+            "D. 6dm"
+        ]
+    },
+    {
+        "id": "01-0346",
+        "question": "Decimal is 55 ones, 2 percent, 7 thousandths.",
+        "choices": [
+            "A. 55,207",
+            "B. 55,072",
+            "C. 55,702",
+            "D. 55,027"
+        ],
+        "eng_choices": [
+            "A. 55,207",
+            "B. 55,072",
+            "C. 55,702",
+            "D. 55,027"
+        ]
+    },
+    {
+        "id": "01-0347",
+        "question": "The fraction \\frac{9}{12} written as a percentage is:",
+        "choices": [
+            "A. 70%",
+            "B. 75%",
+            "C. 80%",
+            "D. 85%"
+        ],
+        "eng_choices": [
+            "A. 70%",
+            "B. 75%",
+            "C. 80%",
+            "D. 85%"
+        ]
+    },
+    {
+        "id": "01-0351",
+        "question": "Write the appropriate number in the dot: The value of the expression: 136.5 – 100 : 2.5 x 0.9 is:",
+        "choices": [
+            "A. 100,5",
+            "B. 110,5",
+            "C. 100",
+            "D. 105,5"
+        ],
+        "eng_choices": [
+            "A. 100,5",
+            "B. 110,5",
+            "C. 100",
+            "D. 105,5"
+        ]
+    },
+    {
+        "id": "01-0353",
+        "question": "Write the appropriate number on the dot: 55 ha 17 m^{2} =.....,.....ha",
+        "choices": [
+            "A. 55,0017",
+            "B. 55,17",
+            "C. 55,017",
+            "D. 55,000017"
+        ],
+        "eng_choices": [
+            "A. 55,0017",
+            "B. 55,17",
+            "C. 55,017",
+            "D. 55,000017"
+        ]
+    },
+    {
+        "id": "01-0358",
+        "question": "For 2km 257m =...... km. The number filled in the dot place is",
+        "choices": [
+            "A. 22,57",
+            "B. 2,257",
+            "C. 2 257"
+        ],
+        "eng_choices": [
+            "A. 22,57",
+            "B. 2,257",
+            "C. 2 257"
+        ]
+    },
+    {
+        "id": "01-0362",
+        "question": "The percentage ratio of the two numbers 2.8 and 80 is :",
+        "choices": [
+            "A. 2,8%",
+            "B. 50%",
+            "C. 3,5%",
+            "D. 35%"
+        ],
+        "eng_choices": [
+            "A. 2,8%",
+            "B. 50%",
+            "C. 3,5%",
+            "D. 35%"
+        ]
+    },
+    {
+        "id": "01-0364",
+        "question": "The dot (>; <; =) fills in the dot of: 8 m^{2} 50 dm^{2}... 8.05 m^{2} is:",
+        "choices": [
+            "A. <",
+            "B. >",
+            "C. ="
+        ],
+        "eng_choices": [
+            "A. <",
+            "B. >",
+            "C. ="
+        ]
+    },
+    {
+        "id": "01-0373",
+        "question": "Draw the height of AH in the following triangle: + Divide by 0.6159 \\div 0.52. If the decimal in the quotient takes 2 digits, then the remainder of this division is:",
+        "choices": [
+            "A. 23",
+            "B. 0,23",
+            "C. 0,023",
+            "D. 0,0023"
+        ],
+        "eng_choices": [
+            "A. 23",
+            "B. 0,23",
+            "C. 0,023",
+            "D. 0,0023"
+        ]
+    },
+    {
+        "id": "01-0375",
+        "question": "3m246cm^{2} =...... cm^{2}. The proper number written on the dot is:",
+        "choices": [
+            "A. 34600",
+            "B. 30046",
+            "C. 3046",
+            "D. 346"
+        ],
+        "eng_choices": [
+            "A. 34600",
+            "B. 30046",
+            "C. 3046",
+            "D. 346"
+        ]
+    },
+    {
+        "id": "01-0376",
+        "question": "The area of a rectangle with a length of 1.2dm and a width of \\frac{1}{3} is:",
+        "choices": [
+            "A. 0,4 dm^{2}",
+            "B. 4,8 dm^{2}",
+            "C. 48 dm^{2}",
+            "D. 0,48 dm^{2}"
+        ],
+        "eng_choices": [
+            "A. 0,4 dm^{2}",
+            "B. 4,8 dm^{2}",
+            "C. 48 dm^{2}",
+            "D. 0,48 dm^{2}"
+        ]
+    },
+    {
+        "id": "01-0378",
+        "question": "The digit 7 in the decimal number 82,374 has the value of:",
+        "choices": [
+            "A. 7",
+            "B. 0,7",
+            "C. 0,07",
+            "D. 70"
+        ],
+        "eng_choices": [
+            "A. 7",
+            "B. 0,7",
+            "C. 0,07",
+            "D. 70"
+        ]
+    },
+    {
+        "id": "01-0380",
+        "question": "The result of the calculation of 72.1 – 30.4 is:",
+        "choices": [
+            "A. 4,17",
+            "B. 41,7",
+            "C. 417",
+            "D. 47,1"
+        ],
+        "eng_choices": [
+            "A. 4,17",
+            "B. 41,7",
+            "C. 417",
+            "D. 47,1"
+        ]
+    },
+    {
+        "id": "01-0384",
+        "question": "The mixed number 17 \\frac{13}{100} written as a decimal is:",
+        "choices": [
+            "A. 17,13",
+            "B. 1,713",
+            "C. 171,3"
+        ],
+        "eng_choices": [
+            "A. 17,13",
+            "B. 1,713",
+            "C. 171,3"
+        ]
+    },
+    {
+        "id": "01-0386",
+        "question": "Given 4.53 hectares =......m^{2}.Suitable number to fill in the dot place:",
+        "choices": [
+            "A. 45300 m^{2}",
+            "B. 453 m^{2}",
+            "C. 453.0 m^{2}"
+        ],
+        "eng_choices": [
+            "A. 45300 m^{2}",
+            "B. 453 m^{2}",
+            "C. 453.0 m^{2}"
+        ]
+    },
+    {
+        "id": "01-0387",
+        "question": "Multiplying 15.274 x 100 in your head will result in:",
+        "choices": [
+            "A. 15,274",
+            "B. 1527,4",
+            "C. 1527"
+        ],
+        "eng_choices": [
+            "A. 15,274",
+            "B. 1527,4",
+            "C. 1527"
+        ]
+    },
+    {
+        "id": "01-0389",
+        "question": "The digit 9 in 391,132 is in the row:",
+        "choices": [
+            "A. Squeeze",
+            "B. Hundreds",
+            "C. Tenths",
+            "D. Percent"
+        ],
+        "eng_choices": [
+            "A. Squeeze",
+            "B. Hundreds",
+            "C. Tenths",
+            "D. Percent"
+        ]
+    },
+    {
+        "id": "01-0390",
+        "question": "The 5th digit of 245 836 indicates:",
+        "choices": [
+            "A. 500",
+            "B. 5000",
+            "C. 50 000",
+            "D. 5"
+        ],
+        "eng_choices": [
+            "A. 500",
+            "B. 5000",
+            "C. 50 000",
+            "D. 5"
+        ]
+    },
+    {
+        "id": "01-0391",
+        "question": "The result of addition: 125.855 + 25.31 =?",
+        "choices": [
+            "A. 150,070",
+            "B. 151,07",
+            "C. 150,07",
+            "D. 251,165"
+        ],
+        "eng_choices": [
+            "A. 150,070",
+            "B. 151,07",
+            "C. 150,07",
+            "D. 251,165"
+        ]
+    },
+    {
+        "id": "01-0394",
+        "question": "The class has 32 students, the number of girls is 12. What percentage of the class are male?",
+        "choices": [
+            "A. 37,5%",
+            "B. 26,6%",
+            "C. 62,5%",
+            "D. 20%"
+        ],
+        "eng_choices": [
+            "A. 37,5%",
+            "B. 26,6%",
+            "C. 62,5%",
+            "D. 20%"
+        ]
+    },
+    {
+        "id": "01-0397",
+        "question": "The result of the expression: 75 + (15.2 \\times 5) + 30 \\div 2 is:",
+        "choices": [
+            "A. 136",
+            "B. 26",
+            "C. 166",
+            "D. 2,06"
+        ],
+        "eng_choices": [
+            "A. 136",
+            "B. 26",
+            "C. 166",
+            "D. 2,06"
+        ]
+    },
+    {
+        "id": "01-0398",
+        "question": "The appropriate number to fill in the dotted place so that 2hours 18minutes =.............hours is:",
+        "choices": [
+            "A. 126",
+            "B. 2,1",
+            "C. 2,3",
+            "D. 2,06"
+        ],
+        "eng_choices": [
+            "A. 126",
+            "B. 2,1",
+            "C. 2,3",
+            "D. 2,06"
+        ]
+    },
+    {
+        "id": "01-0401",
+        "question": "The appropriate number of filling dots to 3 tons 15kg =...... tons is:",
+        "choices": [
+            "A. 350 tons",
+            "B. 3,015 tons",
+            "C. 3.05 Tons",
+            "D. 3,005 tons"
+        ],
+        "eng_choices": [
+            "A. 350 tons",
+            "B. 3,015 tons",
+            "C. 3.05 Tons",
+            "D. 3,005 tons"
+        ]
+    },
+    {
+        "id": "01-0403",
+        "question": "Calculation: 1286.35 + 534,85 has the result:",
+        "choices": [
+            "A. 1821,2",
+            "B. 3821,2",
+            "C. 1781,1"
+        ],
+        "eng_choices": [
+            "A. 1821,2",
+            "B. 3821,2",
+            "C. 1781,1"
+        ]
+    },
+    {
+        "id": "01-0405",
+        "question": "The appropriate number of filling in the dotted place to 9m2 8dm2 =........m2 is:",
+        "choices": [
+            "A. 9,8",
+            "B. 9,80",
+            "C. 9,08"
+        ],
+        "eng_choices": [
+            "A. 9,8",
+            "B. 9,80",
+            "C. 9,08"
+        ]
+    },
+    {
+        "id": "01-0407",
+        "question": "The number 9.6 written as a mixed number is :",
+        "choices": [
+            "A. 9 \\frac{6}{10}",
+            "B. 6 \\frac{9}{10}",
+            "C. 9 \\frac{6}{100}"
+        ],
+        "eng_choices": [
+            "A. 9 \\frac{6}{10}",
+            "B. 6 \\frac{9}{10}",
+            "C. 9 \\frac{6}{100}"
+        ]
+    },
+    {
+        "id": "01-0409",
+        "question": "The 7 digit in 169.57 indicates:",
+        "choices": [
+            "A. 7 units",
+            "B. Seven tenths.",
+            "C. Seven percent."
+        ],
+        "eng_choices": [
+            "A. 7 units",
+            "B. Seven tenths.",
+            "C. Seven percent."
+        ]
+    },
+    {
+        "id": "01-0410",
+        "question": "Mixed number 4 written as a decimal is:",
+        "choices": [
+            "A. 4,35",
+            "B. 4,53",
+            "C. 4,6"
+        ],
+        "eng_choices": [
+            "A. 4,35",
+            "B. 4,53",
+            "C. 4,6"
+        ]
+    },
+    {
+        "id": "01-0412",
+        "question": "the correct result of the calculation 25.4 \\times 4 is:",
+        "choices": [
+            "A. 101.4",
+            "B. 106.6",
+            "C. 101,6"
+        ],
+        "eng_choices": [
+            "A. 101.4",
+            "B. 106.6",
+            "C. 101,6"
+        ]
+    },
+    {
+        "id": "01-0413",
+        "question": "The 9 digits of the 427,098 indicate:",
+        "choices": [
+            "A. Nine thousandths.",
+            "B. Nine tenths.",
+            "C. Nine tens.",
+            "D. Nine percent."
+        ],
+        "eng_choices": [
+            "A. Nine thousandths.",
+            "B. Nine tenths.",
+            "C. Nine tens.",
+            "D. Nine percent."
+        ]
+    },
+    {
+        "id": "01-0420",
+        "question": "The 5th digit in the decimal number 169,156 is worth.",
+        "choices": [
+            "A. 5",
+            "B. \\frac{5}{10}",
+            "C. \\frac{5}{100}",
+            "D. \\frac{5}{1000}"
+        ],
+        "eng_choices": [
+            "A. 5",
+            "B. \\frac{5}{10}",
+            "C. \\frac{5}{100}",
+            "D. \\frac{5}{1000}"
+        ]
+    },
+    {
+        "id": "01-0422",
+        "question": "Which of the following has the same value as 0.08?",
+        "choices": [
+            "A. 0,800",
+            "B. 8,00",
+            "C. 0,80",
+            "D. 0,080"
+        ],
+        "eng_choices": [
+            "A. 0,800",
+            "B. 8,00",
+            "C. 0,80",
+            "D. 0,080"
+        ]
+    },
+    {
+        "id": "01-0423",
+        "question": "11 tons + 2 kg =................... kg",
+        "choices": [
+            "A. 11002 kg",
+            "B. 1102 kg",
+            "C. 11020 kg",
+            "D. 11200 kg"
+        ],
+        "eng_choices": [
+            "A. 11002 kg",
+            "B. 1102 kg",
+            "C. 11020 kg",
+            "D. 11200 kg"
+        ]
+    },
+    {
+        "id": "01-0425",
+        "question": "The proper number of fills in the dot so that 9m^{2} 8dm^{2} =........dm^{2} is:",
+        "choices": [
+            "A. 98",
+            "B. 980",
+            "C. 908",
+            "D. 9008"
+        ],
+        "eng_choices": [
+            "A. 98",
+            "B. 980",
+            "C. 908",
+            "D. 9008"
+        ]
+    },
+    {
+        "id": "01-0429",
+        "question": "The decimal fraction \\frac{806}{100} written as a decimal is:",
+        "choices": [
+            "A. 8,6",
+            "B. 0,806",
+            "C. 8,60",
+            "D. 8,06"
+        ],
+        "eng_choices": [
+            "A. 8,6",
+            "B. 0,806",
+            "C. 8,60",
+            "D. 8,06"
+        ]
+    },
+    {
+        "id": "01-0431",
+        "question": "The largest of the numbers 39.402; 39.204; 40.392; 40.293 is:",
+        "choices": [
+            "A. 40,392",
+            "B. 39,204",
+            "C. 40,293",
+            "D. 39,402"
+        ],
+        "eng_choices": [
+            "A. 40,392",
+            "B. 39,204",
+            "C. 40,293",
+            "D. 39,402"
+        ]
+    },
+    {
+        "id": "01-0432",
+        "question": "The area of the rectangle with a length of 3m, a width of 2.5m is:",
+        "choices": [
+            "A. 75m^{2}",
+            "B. 7,5m^{2}",
+            "C. 5,5m^{2}",
+            "D. 2,8m^{2}"
+        ],
+        "eng_choices": [
+            "A. 75m^{2}",
+            "B. 7,5m^{2}",
+            "C. 5,5m^{2}",
+            "D. 2,8m^{2}"
+        ]
+    },
+    {
+        "id": "01-0433",
+        "question": "Write the appropriate number in the dot: 30g =... kg.",
+        "choices": [
+            "A. 30 000 kg",
+            "B. 0,03 kg",
+            "C. 0,3kg",
+            "D. 3kg"
+        ],
+        "eng_choices": [
+            "A. 30 000 kg",
+            "B. 0,03 kg",
+            "C. 0,3kg",
+            "D. 3kg"
+        ]
+    },
+    {
+        "id": "01-0434",
+        "question": "Write the appropriate number in the dot: 627 m^{2} = ha",
+        "choices": [
+            "A. 627 acres",
+            "B. 0.0627 ha",
+            "C. 6.027 ha",
+            "D. 6.27 ha"
+        ],
+        "eng_choices": [
+            "A. 627 acres",
+            "B. 0.0627 ha",
+            "C. 6.027 ha",
+            "D. 6.27 ha"
+        ]
+    },
+    {
+        "id": "01-0435",
+        "question": "The area of a triangle with a base length of 3m and a width of 24dm is:",
+        "choices": [
+            "A. 72m^{2}",
+            "B. 7,2m^{2}",
+            "C. 3,6m^{2}",
+            "D. 54m^{2}"
+        ],
+        "eng_choices": [
+            "A. 72m^{2}",
+            "B. 7,2m^{2}",
+            "C. 3,6m^{2}",
+            "D. 54m^{2}"
+        ]
+    },
+    {
+        "id": "01-0437",
+        "question": "The numbers 5.7; 6.02; 4.23; 4.32; 5.3 are written in order from least to greatest:",
+        "choices": [
+            "A. 5, 7, 6, 02, 4, 23, 4, 32, 5, 3",
+            "B. 6.02; 5.7; 5.3; 4.32; 4.23",
+            "C. 4.23; 5.3; 5.7; 6.02; 4.32",
+            "D. 4.23; 4.32; 5.3; 5.7; 6.02"
+        ],
+        "eng_choices": [
+            "A. 5, 7, 6, 02, 4, 23, 4, 32, 5, 3",
+            "B. 6.02; 5.7; 5.3; 4.32; 4.23",
+            "C. 4.23; 5.3; 5.7; 6.02; 4.32",
+            "D. 4.23; 4.32; 5.3; 5.7; 6.02"
+        ]
+    },
+    {
+        "id": "01-0449",
+        "question": "The percentages of 75 and 300 are:",
+        "choices": [
+            "A. 75%",
+            "B. 65%",
+            "C. 35%",
+            "D. 25%"
+        ],
+        "eng_choices": [
+            "A. 75%",
+            "B. 65%",
+            "C. 35%",
+            "D. 25%"
+        ]
+    },
+    {
+        "id": "01-0454",
+        "question": "The decimal fraction is:",
+        "choices": [
+            "A. \\frac{27}{10}",
+            "B. \\frac{27}{200}",
+            "C. \\frac{35}{20}",
+            "D. \\frac{27}{50}"
+        ],
+        "eng_choices": [
+            "A. \\frac{27}{10}",
+            "B. \\frac{27}{200}",
+            "C. \\frac{35}{20}",
+            "D. \\frac{27}{50}"
+        ]
+    },
+    {
+        "id": "01-0456",
+        "question": "2 dam^{2} 49 m^{2} =.........m^{2}",
+        "choices": [
+            "A. 2049",
+            "B. 2490",
+            "C. 249",
+            "D. 24900"
+        ],
+        "eng_choices": [
+            "A. 2049",
+            "B. 2490",
+            "C. 249",
+            "D. 24900"
+        ]
+    },
+    {
+        "id": "01-0461",
+        "question": "Write \\frac{5}{10} as a decimal:",
+        "choices": [
+            "A. 0,005",
+            "B. 0,5",
+            "C. 0,05",
+            "D. 5,0"
+        ],
+        "eng_choices": [
+            "A. 0,005",
+            "B. 0,5",
+            "C. 0,05",
+            "D. 5,0"
+        ]
+    },
+    {
+        "id": "01-0463",
+        "question": "A square room with a 30cm edge. Its area will be:",
+        "choices": [
+            "A. 900cm^{2}",
+            "B. 900cm^{2}",
+            "C. 90cm^{2}",
+            "D. 9cm^{2}"
+        ],
+        "eng_choices": [
+            "A. 900cm^{2}",
+            "B. 900cm^{2}",
+            "C. 90cm^{2}",
+            "D. 9cm^{2}"
+        ]
+    },
+    {
+        "id": "01-0464",
+        "question": "The integer part of 1942.54 is:",
+        "choices": [
+            "A. 54",
+            "B. 194254",
+            "C. 1942,54",
+            "D. 1924"
+        ],
+        "eng_choices": [
+            "A. 54",
+            "B. 194254",
+            "C. 1942,54",
+            "D. 1924"
+        ]
+    },
+    {
+        "id": "01-0471",
+        "question": "The mixed number 3 \\frac{2}{5} converted to decimal is:",
+        "choices": [
+            "A. 3,400",
+            "B. 3,400",
+            "C. 3,04",
+            "D. 3,004"
+        ],
+        "eng_choices": [
+            "A. 3,400",
+            "B. 3,400",
+            "C. 3,04",
+            "D. 3,004"
+        ]
+    },
+    {
+        "id": "01-0472",
+        "question": "Buying 5 m of fabric for 150000 VND. Buying 25 m of fabric of that type, paying more than VND..........................",
+        "choices": [
+            "A. 750000",
+            "B. 600000",
+            "C. 30000",
+            "D. 60000"
+        ],
+        "eng_choices": [
+            "A. 750000",
+            "B. 600000",
+            "C. 30000",
+            "D. 60000"
+        ]
+    },
+    {
+        "id": "01-0474",
+        "question": "The decimal number 2.35 written as a mixed number is:",
+        "choices": [
+            "A. 2 \\frac{35}{10}",
+            "B. 2 \\frac{35}{100}",
+            "C. 23 \\frac{5}{10}",
+            "D. 23 \\frac{5}{100}"
+        ],
+        "eng_choices": [
+            "A. 2 \\frac{35}{10}",
+            "B. 2 \\frac{35}{100}",
+            "C. 23 \\frac{5}{10}",
+            "D. 23 \\frac{5}{100}"
+        ]
+    },
+    {
+        "id": "01-0476",
+        "question": "The mixed number 3 \\frac{9}{100} written as a decimal is:",
+        "choices": [
+            "A. 3,900",
+            "B. 3,09",
+            "C. 3,009",
+            "D. 3,90"
+        ],
+        "eng_choices": [
+            "A. 3,900",
+            "B. 3,09",
+            "C. 3,009",
+            "D. 3,90"
+        ]
+    },
+    {
+        "id": "01-0478",
+        "question": "The mixed number 3 \\frac{2}{5} converted to a fraction is:",
+        "choices": [
+            "A. \\frac{6}{5}",
+            "B. \\frac{15}{2}",
+            "C. \\frac{11}{5}",
+            "D. \\frac{17}{5}"
+        ],
+        "eng_choices": [
+            "A. \\frac{6}{5}",
+            "B. \\frac{15}{2}",
+            "C. \\frac{11}{5}",
+            "D. \\frac{17}{5}"
+        ]
+    },
+    {
+        "id": "01-0480",
+        "question": "Suitable number to fill in the dot place of 3,754m =... cm",
+        "choices": [
+            "A. 3754",
+            "B. 375,4",
+            "C. 357,4",
+            "D. 37,54"
+        ],
+        "eng_choices": [
+            "A. 3754",
+            "B. 375,4",
+            "C. 357,4",
+            "D. 37,54"
+        ]
+    },
+    {
+        "id": "01-0483",
+        "question": "Which of the following decimal sequences are written in order from largest to smallest?",
+        "choices": [
+            "A. 8; 8.76; 8.093; 8.901",
+            "B. 5.494; 5.493; 5.392; 5.001",
+            "C. 6,732; 7; 7,009; 7,013",
+            "D. 13; 12.47; 12.51; 12.001"
+        ],
+        "eng_choices": [
+            "A. 8; 8.76; 8.093; 8.901",
+            "B. 5.494; 5.493; 5.392; 5.001",
+            "C. 6,732; 7; 7,009; 7,013",
+            "D. 13; 12.47; 12.51; 12.001"
+        ]
+    },
+    {
+        "id": "01-0484",
+        "question": "The proper number to fill in the dot of 8.3ha =......m^{2} is:",
+        "choices": [
+            "A. 8300",
+            "B. 830",
+            "C. 83 000",
+            "D. 80 300"
+        ],
+        "eng_choices": [
+            "A. 8300",
+            "B. 830",
+            "C. 83 000",
+            "D. 80 300"
+        ]
+    },
+    {
+        "id": "01-0486",
+        "question": "3 \\frac{9}{100} written as a decimal is:",
+        "choices": [
+            "A. 3,900",
+            "B. 3,09",
+            "C. 3,9",
+            "D. 3,90"
+        ],
+        "eng_choices": [
+            "A. 3,900",
+            "B. 3,09",
+            "C. 3,9",
+            "D. 3,90"
+        ]
+    },
+    {
+        "id": "01-0488",
+        "question": "A rectangular land parcel has a length of 24m and a width of 10m. The land area is:",
+        "choices": [
+            "A. 240m",
+            "B. 204m",
+            "C. 240m^{2}",
+            "D. 204m^{2}"
+        ],
+        "eng_choices": [
+            "A. 240m",
+            "B. 204m",
+            "C. 240m^{2}",
+            "D. 204m^{2}"
+        ]
+    },
+    {
+        "id": "01-0490",
+        "question": "What decimal is the mixed number 5 \\frac{1}{5} in the following numbers:",
+        "choices": [
+            "A. 5,2",
+            "B. 5,02",
+            "C. 5,002"
+        ],
+        "eng_choices": [
+            "A. 5,2",
+            "B. 5,02",
+            "C. 5,002"
+        ]
+    },
+    {
+        "id": "01-0492",
+        "question": "Multiplying in your head 45,4375 \\times 100 results in:",
+        "choices": [
+            "A. 4,54375",
+            "B. 4543,75",
+            "C. 454,375"
+        ],
+        "eng_choices": [
+            "A. 4,54375",
+            "B. 4543,75",
+            "C. 454,375"
+        ]
+    },
+    {
+        "id": "01-0493",
+        "question": "35 m^{2} 6 dm^{2} =...... m^{2}. The proper number written on the dot is:",
+        "choices": [
+            "A. 35,06",
+            "B. 35,6",
+            "C. 356"
+        ],
+        "eng_choices": [
+            "A. 35,06",
+            "B. 35,6",
+            "C. 356"
+        ]
+    },
+    {
+        "id": "01-0498",
+        "question": "The largest of the numbers 6.97; 7.99; 6.79; 7.9 is:",
+        "choices": [
+            "A. 6,97",
+            "B. 7,99",
+            "C. 6,79",
+            "D. 7,9"
+        ],
+        "eng_choices": [
+            "A. 6,97",
+            "B. 7,99",
+            "C. 6,79",
+            "D. 7,9"
+        ]
+    },
+    {
+        "id": "01-0499",
+        "question": "Convert mixed number 4 \\frac{3}{5} into a fraction:",
+        "choices": [
+            "A. \\frac{23}{5}",
+            "B. \\frac{17}{5}",
+            "C. \\frac{27}{5}",
+            "D. \\frac{17}{5}"
+        ],
+        "eng_choices": [
+            "A. \\frac{23}{5}",
+            "B. \\frac{17}{5}",
+            "C. \\frac{27}{5}",
+            "D. \\frac{17}{5}"
+        ]
+    },
+    {
+        "id": "01-0500",
+        "question": "Give the decimal 5.432. If you move the decimal to the right of a digit, which row does the 3 belong in?",
+        "choices": [
+            "A. Tens",
+            "B. Line Unit",
+            "C. Percents",
+            "D. Tenths place"
+        ],
+        "eng_choices": [
+            "A. Tens",
+            "B. Line Unit",
+            "C. Percents",
+            "D. Tenths place"
+        ]
+    },
+    {
+        "id": "01-0502",
+        "question": "The average of 1.12; 2.78; 3 is:",
+        "choices": [
+            "A. 3,93",
+            "B. 20,70",
+            "C. 6,90",
+            "D. 2,3"
+        ],
+        "eng_choices": [
+            "A. 3,93",
+            "B. 20,70",
+            "C. 6,90",
+            "D. 2,3"
+        ]
+    },
+    {
+        "id": "01-0510",
+        "question": "The percentages of 16 and 25 are :",
+        "choices": [
+            "A. 6,4%",
+            "B. 0,64%",
+            "C. 64%",
+            "D. 6,04%"
+        ],
+        "eng_choices": [
+            "A. 6,4%",
+            "B. 0,64%",
+            "C. 64%",
+            "D. 6,04%"
+        ]
+    },
+    {
+        "id": "01-0513",
+        "question": "\\frac{1}{10} Write as a decimal:",
+        "choices": [
+            "A. 1,0",
+            "B. 0,1",
+            "C. 0,01"
+        ],
+        "eng_choices": [
+            "A. 1,0",
+            "B. 0,1",
+            "C. 0,01"
+        ]
+    },
+    {
+        "id": "01-0518",
+        "question": "In the warehouse of the Ming, there is some rice, the first 10 days of the Ming used up 1 slice of rice, the next 10 days of the Ming used up half of the remaining rice, the last 10 days of the month the Ming used up the rice in the warehouse and had to buy another 3 kg of rice. Know that in those 30 days, the Ming used up all 0.35 tons of rice. Ask the last 10 days of the month, how many kilograms of rice did the Ming use up?",
+        "choices": [
+            "A. 12 kg",
+            "B. 13 kg",
+            "C. 15 kg",
+            "D. 14 kg"
+        ],
+        "eng_choices": [
+            "A. 12 kg",
+            "B. 13 kg",
+            "C. 15 kg",
+            "D. 14 kg"
+        ]
+    },
+    {
+        "id": "01-0519",
+        "question": "A rectangle is twice as long as it is wide. If the length is increased by 5 dm and the width and height are the same, the volume of the rectangle increases by 1.2 times. How many times does the volume of the rectangle increase if the width is increased by 5 dm, the length is reduced by 5 dm and the height is doubled?",
+        "choices": [
+            "A. 1.12 times",
+            "B. 2.24 times",
+            "C. 1.44 times",
+            "D. 2.28 times"
+        ],
+        "eng_choices": [
+            "A. 1.12 times",
+            "B. 2.24 times",
+            "C. 1.44 times",
+            "D. 2.28 times"
+        ]
+    },
+    {
+        "id": "01-0525",
+        "question": "Calculate the area ratios of the BDF and AEF triangles.",
+        "choices": [
+            "A. 2",
+            "B. 1,5",
+            "C. 3",
+            "D. 1"
+        ],
+        "eng_choices": [
+            "A. 2",
+            "B. 1,5",
+            "C. 3",
+            "D. 1"
+        ]
+    },
+    {
+        "id": "01-0529",
+        "question": "Team consists of 10 workers who complete a job in 30 days. If the team has 20 workers, how long will the work be completed?",
+        "choices": [
+            "A. 10 days of",
+            "B. 60 days of",
+            "C. 40 days",
+            "D. 15 days of"
+        ],
+        "eng_choices": [
+            "A. 10 days of",
+            "B. 60 days of",
+            "C. 40 days",
+            "D. 15 days of"
+        ]
+    },
+    {
+        "id": "01-0536",
+        "question": "The total area of a cube is 486 dm^{2}. So the volume of that cube is:",
+        "choices": [
+            "A. 324 dm^{3}",
+            "B. 162 dm^{3}",
+            "C. 121,5 dm^{3}",
+            "D. 729 dm^{3}"
+        ],
+        "eng_choices": [
+            "A. 324 dm^{3}",
+            "B. 162 dm^{3}",
+            "C. 121,5 dm^{3}",
+            "D. 729 dm^{3}"
+        ]
+    },
+    {
+        "id": "01-0538",
+        "question": "Subtracting 712.54 - 48.9 gives the correct result:",
+        "choices": [
+            "A. 70,765",
+            "B. 223,54",
+            "C. 663,64",
+            "D. 707,65"
+        ],
+        "eng_choices": [
+            "A. 70,765",
+            "B. 223,54",
+            "C. 663,64",
+            "D. 707,65"
+        ]
+    },
+    {
+        "id": "01-0540",
+        "question": "Write the appropriate number in the dot: 55 ha 17 m^{2} =..........ha",
+        "choices": [
+            "A. 55,17",
+            "B. 55,0017",
+            "C. 55, 017",
+            "D. 55, 000017"
+        ],
+        "eng_choices": [
+            "A. 55,17",
+            "B. 55,0017",
+            "C. 55, 017",
+            "D. 55, 000017"
+        ]
+    },
+    {
+        "id": "01-0545",
+        "question": "3m^{3} 5dm^{3} =............. dm^{3}",
+        "choices": [
+            "A. 305",
+            "B. 3005",
+            "C. 30005",
+            "D. 3050"
+        ],
+        "eng_choices": [
+            "A. 305",
+            "B. 3005",
+            "C. 30005",
+            "D. 3050"
+        ]
+    },
+    {
+        "id": "01-0551",
+        "question": "1 minute 15 seconds =?",
+        "choices": [
+            "A. 1,15 minutes",
+            "B. 1,25 minutes",
+            "C. 115 seconds",
+            "D. 1,25 seconds"
+        ],
+        "eng_choices": [
+            "A. 1,15 minutes",
+            "B. 1,25 minutes",
+            "C. 115 seconds",
+            "D. 1,25 seconds"
+        ]
+    },
+    {
+        "id": "01-0552",
+        "question": "If a trapezoid has an average of two bottoms of 5 cm and a height of 3.2 cm, then the area of the trapezoid is:",
+        "choices": [
+            "A. 8cm^{2}",
+            "B. 32cm^{2}",
+            "C. 16 cm^{2}",
+            "D. 164cm^{2}"
+        ],
+        "eng_choices": [
+            "A. 8cm^{2}",
+            "B. 32cm^{2}",
+            "C. 16 cm^{2}",
+            "D. 164cm^{2}"
+        ]
+    },
+    {
+        "id": "01-0554",
+        "question": "The area of a circle with a diameter of 2 cm is:",
+        "choices": [
+            "A. 3,14 cm^{2}",
+            "B. 6,28 cm^{2}",
+            "C. 6,28 cm",
+            "D. 12,56 cm^{2}"
+        ],
+        "eng_choices": [
+            "A. 3,14 cm^{2}",
+            "B. 6,28 cm^{2}",
+            "C. 6,28 cm",
+            "D. 12,56 cm^{2}"
+        ]
+    },
+    {
+        "id": "01-0555",
+        "question": "\\frac{32}{100} written as a decimal is:",
+        "choices": [
+            "A. 0,0032",
+            "B. 0,032",
+            "C. 0,32",
+            "D. 3,2"
+        ],
+        "eng_choices": [
+            "A. 0,0032",
+            "B. 0,032",
+            "C. 0,32",
+            "D. 3,2"
+        ]
+    },
+    {
+        "id": "01-0556",
+        "question": "The appropriate number of things in dot place so that 2m^{3} =........dm^{3} is:",
+        "choices": [
+            "A. 20",
+            "B. 200",
+            "C. 2000",
+            "D. 20 000"
+        ],
+        "eng_choices": [
+            "A. 20",
+            "B. 200",
+            "C. 2000",
+            "D. 20 000"
+        ]
+    },
+    {
+        "id": "01-0561",
+        "question": "The decimal number of 18 units, 8 tenths and 6 thousandths is written as:",
+        "choices": [
+            "A. 18,86",
+            "B. 18,806",
+            "C. 18,086",
+            "D. 18,608"
+        ],
+        "eng_choices": [
+            "A. 18,86",
+            "B. 18,806",
+            "C. 18,086",
+            "D. 18,608"
+        ]
+    },
+    {
+        "id": "01-0569",
+        "question": "The appropriate number written in dot place of 4m^{3} 21dm^{3} =.........................................m^{3}",
+        "choices": [
+            "A. 4,0021m^{3}",
+            "B. 4,021 m^{3}",
+            "C. 4,210m^{3}",
+            "D. 4,0210m^{3}"
+        ],
+        "eng_choices": [
+            "A. 4,0021m^{3}",
+            "B. 4,021 m^{3}",
+            "C. 4,210m^{3}",
+            "D. 4,0210m^{3}"
+        ]
+    },
+    {
+        "id": "01-0572",
+        "question": "The number 0.45 in the form of a percentage is:",
+        "choices": [
+            "A. 45%",
+            "B. 4,5%",
+            "C. 450%",
+            "D. 0,45%"
+        ],
+        "eng_choices": [
+            "A. 45%",
+            "B. 4,5%",
+            "C. 450%",
+            "D. 0,45%"
+        ]
+    },
+    {
+        "id": "01-0574",
+        "question": "A class has 30 students, including 12 female students. So the percentage of female students to the number of students in that class is:",
+        "choices": [
+            "A. 250%",
+            "B. 40%",
+            "C. 66,7%",
+            "D. 150%"
+        ],
+        "eng_choices": [
+            "A. 250%",
+            "B. 40%",
+            "C. 66,7%",
+            "D. 150%"
+        ]
+    },
+    {
+        "id": "01-0575",
+        "question": "Area of a trapezoidal field with two bottoms of 20 m, 15 m and 10 m in length, respectively:",
+        "choices": [
+            "A. 350 m^{2}",
+            "B. 175",
+            "C. 3000 m^{2}",
+            "D. 175 M^{2}"
+        ],
+        "eng_choices": [
+            "A. 350 m^{2}",
+            "B. 175",
+            "C. 3000 m^{2}",
+            "D. 175 M^{2}"
+        ]
+    },
+    {
+        "id": "01-0576",
+        "question": "A motorcycle traveling 90 km takes 2 hours and 30 minutes. The speed of that motorcycle is:",
+        "choices": [
+            "A. 36 km/hour",
+            "B. 40 km/hour",
+            "C. 45 km/hour",
+            "D. 225 Km/h"
+        ],
+        "eng_choices": [
+            "A. 36 km/hour",
+            "B. 40 km/hour",
+            "C. 45 km/hour",
+            "D. 225 Km/h"
+        ]
+    },
+    {
+        "id": "01-0578",
+        "question": "The appropriate number of 17 tons 16 kg =................kg is:",
+        "choices": [
+            "A. 1 706",
+            "B. 1 716",
+            "C. 17 016",
+            "D. 170 016"
+        ],
+        "eng_choices": [
+            "A. 1 706",
+            "B. 1 716",
+            "C. 17 016",
+            "D. 170 016"
+        ]
+    },
+    {
+        "id": "01-0585",
+        "question": "The value of the 5th digit in the 37,085 decimal is:",
+        "choices": [
+            "A. \\frac{5}{10}",
+            "B. \\frac{5}{100}",
+            "C. \\frac{5}{100}"
+        ],
+        "eng_choices": [
+            "A. \\frac{5}{10}",
+            "B. \\frac{5}{100}",
+            "C. \\frac{5}{100}"
+        ]
+    },
+    {
+        "id": "01-0589",
+        "question": "Subtraction result: 87.63 - 25.18",
+        "choices": [
+            "A. 62,54",
+            "B. 62,45",
+            "C. 65,42"
+        ],
+        "eng_choices": [
+            "A. 62,54",
+            "B. 62,45",
+            "C. 65,42"
+        ]
+    },
+    {
+        "id": "01-0590",
+        "question": "Multiplication result: 0.426 \\times 4",
+        "choices": [
+            "A. 10,7",
+            "B. 1,07",
+            "C. 1,7"
+        ],
+        "eng_choices": [
+            "A. 10,7",
+            "B. 1,07",
+            "C. 1,7"
+        ]
+    },
+    {
+        "id": "01-0591",
+        "question": "Divide result: 4.8 \\div 4",
+        "choices": [
+            "A. 1,2",
+            "B. 1,02",
+            "C. 10,2"
+        ],
+        "eng_choices": [
+            "A. 1,2",
+            "B. 1,02",
+            "C. 10,2"
+        ]
+    },
+    {
+        "id": "01-0595",
+        "question": "The 8 in the decimal number 76,815 has the value of:",
+        "choices": [
+            "A. \\frac{8}{100}",
+            "B. \\frac{8}{100}",
+            "C. \\frac{8}{10}",
+            "D. \\frac{8}{10000}"
+        ],
+        "eng_choices": [
+            "A. \\frac{8}{100}",
+            "B. \\frac{8}{100}",
+            "C. \\frac{8}{10}",
+            "D. \\frac{8}{10000}"
+        ]
+    },
+    {
+        "id": "01-0597",
+        "question": "The half - circumference of a rectangle is 180m. The length is more than 20m in width. The area of that rectangle is:",
+        "choices": [
+            "A. 8000m",
+            "B. 8000m^{2}",
+            "C. 3600m^{2}",
+            "D. 3600m"
+        ],
+        "eng_choices": [
+            "A. 8000m",
+            "B. 8000m^{2}",
+            "C. 3600m^{2}",
+            "D. 3600m"
+        ]
+    },
+    {
+        "id": "01-0598",
+        "question": "Mixed number 3 \\frac{2}{5} converted to a fraction",
+        "choices": [
+            "A. \\frac{17}{5}",
+            "B. \\frac{15}{5}",
+            "C. \\frac{6}{5}",
+            "D. \\frac{5}{17}"
+        ],
+        "eng_choices": [
+            "A. \\frac{17}{5}",
+            "B. \\frac{15}{5}",
+            "C. \\frac{6}{5}",
+            "D. \\frac{5}{17}"
+        ]
+    },
+    {
+        "id": "01-0604",
+        "question": "Class 5A has 40 students, of which 30 are female and the remaining 30 are male. The percentages of female students and 5A students are:",
+        "choices": [
+            "A. 0,75",
+            "B. 0,75%",
+            "C. 75%"
+        ],
+        "eng_choices": [
+            "A. 0,75",
+            "B. 0,75%",
+            "C. 75%"
+        ]
+    },
+    {
+        "id": "01-0605",
+        "question": "Which number of 7.75 must be multiplied to get 7.5? Please circle the letter before the correct result.",
+        "choices": [
+            "A. 0,01",
+            "B. 100",
+            "C. 10",
+            "D. 0,1"
+        ],
+        "eng_choices": [
+            "A. 0,01",
+            "B. 100",
+            "C. 10",
+            "D. 0,1"
+        ]
+    },
+    {
+        "id": "01-0607",
+        "question": "How many triangles are there in the figure below? Circle the letter that precedes the correct answer.",
+        "choices": [
+            "A. 12 Triangles",
+            "B. 13 Triangles",
+            "C. 14 Triangles",
+            "D. 15 Triangles"
+        ],
+        "eng_choices": [
+            "A. 12 Triangles",
+            "B. 13 Triangles",
+            "C. 14 Triangles",
+            "D. 15 Triangles"
+        ]
+    },
+    {
+        "id": "01-0609",
+        "question": "The average of 1.12; 2.78; 3 is:",
+        "choices": [
+            "A. 3,93",
+            "B. 20,70",
+            "C. 6,90",
+            "D. 2,3"
+        ],
+        "eng_choices": [
+            "A. 3,93",
+            "B. 20,70",
+            "C. 6,90",
+            "D. 2,3"
+        ]
+    },
+    {
+        "id": "01-0611",
+        "question": "2m^{2} 3cm^{2} =.............m^{2}",
+        "choices": [
+            "A. 2,003",
+            "B. 2,0003",
+            "C. 20,03",
+            "D. 20,003"
+        ],
+        "eng_choices": [
+            "A. 2,003",
+            "B. 2,0003",
+            "C. 20,03",
+            "D. 20,003"
+        ]
+    },
+    {
+        "id": "01-0614",
+        "question": "The decimal fraction \\frac{3}{8} written as a decimal is:",
+        "choices": [
+            "A. 0,375",
+            "B. 3,75",
+            "C. 37,5",
+            "D. 375"
+        ],
+        "eng_choices": [
+            "A. 0,375",
+            "B. 3,75",
+            "C. 37,5",
+            "D. 375"
+        ]
+    },
+    {
+        "id": "01-0616",
+        "question": "The percentage ratios of 16 and 50 are:",
+        "choices": [
+            "A. 0,32%",
+            "B. 3,2%",
+            "C. 32%",
+            "D. 320%"
+        ],
+        "eng_choices": [
+            "A. 0,32%",
+            "B. 3,2%",
+            "C. 32%",
+            "D. 320%"
+        ]
+    },
+    {
+        "id": "01-0617",
+        "question": "A triangle has a base of 25.5cm and a height of 12cm. What is the area of the triangle?",
+        "choices": [
+            "A. 306cm^{2}",
+            "B. 315cm^{2}",
+            "C. 153cm^{2}",
+            "D. 135cm^{2}"
+        ],
+        "eng_choices": [
+            "A. 306cm^{2}",
+            "B. 315cm^{2}",
+            "C. 153cm^{2}",
+            "D. 135cm^{2}"
+        ]
+    },
+    {
+        "id": "01-0622",
+        "question": "The 7 in the 65.473 decimal has the value:",
+        "choices": [
+            "A. \\frac{7}{10}",
+            "B. \\frac{7}{100}",
+            "C. 7",
+            "D. \\frac{7}{1000}"
+        ],
+        "eng_choices": [
+            "A. \\frac{7}{10}",
+            "B. \\frac{7}{100}",
+            "C. 7",
+            "D. \\frac{7}{1000}"
+        ]
+    },
+    {
+        "id": "01-0625",
+        "question": "34 \\frac{6}{100} written as a decimal is:",
+        "choices": [
+            "A. 34,600",
+            "B. 34,06",
+            "C. 34,6",
+            "D. 34,006"
+        ],
+        "eng_choices": [
+            "A. 34,600",
+            "B. 34,06",
+            "C. 34,6",
+            "D. 34,006"
+        ]
+    },
+    {
+        "id": "01-0626",
+        "question": "The largest of the numbers: 9.925; 9.259; 9.952; 9.95 is:",
+        "choices": [
+            "A. 9,925",
+            "B. 9,259",
+            "C. 9,952",
+            "D. 9,95"
+        ],
+        "eng_choices": [
+            "A. 9,925",
+            "B. 9,259",
+            "C. 9,952",
+            "D. 9,95"
+        ]
+    },
+    {
+        "id": "01-0630",
+        "question": "The smallest of the following numbers is:",
+        "choices": [
+            "A. 9,25",
+            "B. 7,54",
+            "C. 8,25",
+            "D. 7,45"
+        ],
+        "eng_choices": [
+            "A. 9,25",
+            "B. 7,54",
+            "C. 8,25",
+            "D. 7,45"
+        ]
+    },
+    {
+        "id": "01-0631",
+        "question": "The area of a rectangular garden plot with a length of 31m and a width of 24m is:",
+        "choices": [
+            "A. 744m^{2}",
+            "B. 447m^{2}",
+            "C. 110m^{2}",
+            "D. 741m^{2}"
+        ],
+        "eng_choices": [
+            "A. 744m^{2}",
+            "B. 447m^{2}",
+            "C. 110m^{2}",
+            "D. 741m^{2}"
+        ]
+    },
+    {
+        "id": "01-0637",
+        "question": "Write decimals with: zero ones, one thousandth.",
+        "choices": [
+            "A. 0,1",
+            "B. 0,01",
+            "C. 0,001",
+            "D. 0,0001"
+        ],
+        "eng_choices": [
+            "A. 0,1",
+            "B. 0,01",
+            "C. 0,001",
+            "D. 0,0001"
+        ]
+    },
+    {
+        "id": "01-0640",
+        "question": "The result of the expression 87.5 x 10 : 0.1 is:",
+        "choices": [
+            "A. 87,5",
+            "B. 875",
+            "C. 8750",
+            "D. 7850"
+        ],
+        "eng_choices": [
+            "A. 87,5",
+            "B. 875",
+            "C. 8750",
+            "D. 7850"
+        ]
+    },
+    {
+        "id": "01-0642",
+        "question": "The result of the calculation: \\frac{6}{5} : \\frac{4}{3}",
+        "choices": [
+            "A. \\frac{18}{20}",
+            "B. \\frac{38}{15}",
+            "C. \\frac{18}{15}",
+            "D. \\frac{24}{15}"
+        ],
+        "eng_choices": [
+            "A. \\frac{18}{20}",
+            "B. \\frac{38}{15}",
+            "C. \\frac{18}{15}",
+            "D. \\frac{24}{15}"
+        ]
+    },
+    {
+        "id": "01-0643",
+        "question": "The decimal \"one unit, three thousandths\" is written as:",
+        "choices": [
+            "A. 1 \\frac{3}{1000}",
+            "B. 1,3000",
+            "C. 1,03",
+            "D. 1,003"
+        ],
+        "eng_choices": [
+            "A. 1 \\frac{3}{1000}",
+            "B. 1,3000",
+            "C. 1,03",
+            "D. 1,003"
+        ]
+    },
+    {
+        "id": "01-0644",
+        "question": "The number with the same value as 0.08 is:",
+        "choices": [
+            "A. 0,800",
+            "B. 0,080",
+            "C. 0,80",
+            "D. 8,00"
+        ],
+        "eng_choices": [
+            "A. 0,800",
+            "B. 0,080",
+            "C. 0,80",
+            "D. 8,00"
+        ]
+    },
+    {
+        "id": "01-0645",
+        "question": "The largest of the numbers 4.23; 4.32; 4.4; 4.321 is:",
+        "choices": [
+            "A. 4,23",
+            "B. 4,321",
+            "C. 4,32",
+            "D. 4,4"
+        ],
+        "eng_choices": [
+            "A. 4,23",
+            "B. 4,321",
+            "C. 4,32",
+            "D. 4,4"
+        ]
+    },
+    {
+        "id": "01-0649",
+        "question": "The team of a school played 20 games, winning 19 of them. So the percentage of wins for that team is:",
+        "choices": [
+            "A. 90%",
+            "B. 95%",
+            "C. 85%",
+            "D. 19%"
+        ],
+        "eng_choices": [
+            "A. 90%",
+            "B. 95%",
+            "C. 85%",
+            "D. 19%"
+        ]
+    },
+    {
+        "id": "01-0650",
+        "question": "After a 20% discount, the price of a book is only 7200 VND. So before the discount, the price of that book is:",
+        "choices": [
+            "A. 9000 VND",
+            "B. 36000 VND",
+            "C. 6400 VND",
+            "D. 14400 VND"
+        ],
+        "eng_choices": [
+            "A. 9000 VND",
+            "B. 36000 VND",
+            "C. 6400 VND",
+            "D. 14400 VND"
+        ]
+    },
+    {
+        "id": "01-0652",
+        "question": "The number \"two hundred thirty - one\" is written as follows:",
+        "choices": [
+            "A. 20031",
+            "B. 231",
+            "C. 2301",
+            "D. 200301"
+        ],
+        "eng_choices": [
+            "A. 20031",
+            "B. 231",
+            "C. 2301",
+            "D. 200301"
+        ]
+    },
+    {
+        "id": "01-0653",
+        "question": "The result of the calculation: 34.46 + 35.55",
+        "choices": [
+            "A. 69,101",
+            "B. 70,01",
+            "C. 69,01",
+            "D. 69,91"
+        ],
+        "eng_choices": [
+            "A. 69,101",
+            "B. 70,01",
+            "C. 69,01",
+            "D. 69,91"
+        ]
+    },
+    {
+        "id": "01-0661",
+        "question": "The appropriate number written in the dot of 6 days 13 hours =...... hours",
+        "choices": [
+            "A. 154 hours",
+            "B. 150 hours",
+            "C. 144 hours",
+            "D. 157 hours"
+        ],
+        "eng_choices": [
+            "A. 154 hours",
+            "B. 150 hours",
+            "C. 144 hours",
+            "D. 157 hours"
+        ]
+    },
+    {
+        "id": "01-0663",
+        "question": "Subtracting 712.54 from 112.54 is the correct answer.",
+        "choices": [
+            "A. 70,54",
+            "B. 700,54",
+            "C. 600"
+        ],
+        "eng_choices": [
+            "A. 70,54",
+            "B. 700,54",
+            "C. 600"
+        ]
+    },
+    {
+        "id": "01-0667",
+        "question": "He travels to school in 30 minutes at a speed of 4 km/h. How many kilometers does he travel from his house to school?",
+        "choices": [
+            "A. 8 km",
+            "B. 4 km",
+            "C. 2 km",
+            "D. 6 km"
+        ],
+        "eng_choices": [
+            "A. 8 km",
+            "B. 4 km",
+            "C. 2 km",
+            "D. 6 km"
+        ]
+    },
+    {
+        "id": "01-0670",
+        "question": "Write the appropriate number in the dot: The value of the expression: 136.5 – 100 \\div 2.5 \\times 0.9 is:",
+        "choices": [
+            "A. 100,5",
+            "B. 110,5",
+            "C. 100",
+            "D. 105,5"
+        ],
+        "eng_choices": [
+            "A. 100,5",
+            "B. 110,5",
+            "C. 100",
+            "D. 105,5"
+        ]
+    },
+    {
+        "id": "01-0672",
+        "question": "Write the appropriate number on the dot: 55 ha 17 m^{2} =.....,.....ha",
+        "choices": [
+            "A. 55,0017",
+            "B. 55,17",
+            "C. 55, 017",
+            "D. 55, 000017"
+        ],
+        "eng_choices": [
+            "A. 55,0017",
+            "B. 55,17",
+            "C. 55, 017",
+            "D. 55, 000017"
+        ]
+    },
+    {
+        "id": "01-0678",
+        "question": "The 8 in the decimal number 95.284 has the value:",
+        "choices": [
+            "A. \\frac{8}{1000}",
+            "B. \\frac{8}{100}",
+            "C. \\frac{8}{10}",
+            "D. 8"
+        ],
+        "eng_choices": [
+            "A. \\frac{8}{1000}",
+            "B. \\frac{8}{100}",
+            "C. \\frac{8}{10}",
+            "D. 8"
+        ]
+    },
+    {
+        "id": "01-0683",
+        "question": "Decimal number: “Twelve-point zero five”, written as:",
+        "choices": [
+            "A. 12,5",
+            "B. 12,05",
+            "C. 120,5",
+            "D. 1,205"
+        ],
+        "eng_choices": [
+            "A. 12,5",
+            "B. 12,05",
+            "C. 120,5",
+            "D. 1,205"
+        ]
+    },
+    {
+        "id": "01-0687",
+        "question": "The value of the digit 9 in the decimal number 0.09 is:",
+        "choices": [
+            "A. 9",
+            "B. \\frac{9}{10}",
+            "C. \\frac{9}{100}",
+            "D. \\frac{9}{1000}"
+        ],
+        "eng_choices": [
+            "A. 9",
+            "B. \\frac{9}{10}",
+            "C. \\frac{9}{100}",
+            "D. \\frac{9}{1000}"
+        ]
+    },
+    {
+        "id": "01-0690",
+        "question": "The mixed number 68 \\frac{7}{100} as a decimal is:",
+        "choices": [
+            "A. 68,07",
+            "B. 68,007",
+            "C. 68,7",
+            "D. 68,70"
+        ],
+        "eng_choices": [
+            "A. 68,07",
+            "B. 68,007",
+            "C. 68,7",
+            "D. 68,70"
+        ]
+    },
+    {
+        "id": "01-0691",
+        "question": "The smallest decimal of the numbers 50.798; 50.789; 50.987; 50.879 is:",
+        "choices": [
+            "A. 50,879",
+            "B. 50,789",
+            "C. 50,798",
+            "D. 50,987"
+        ],
+        "eng_choices": [
+            "A. 50,879",
+            "B. 50,789",
+            "C. 50,798",
+            "D. 50,987"
+        ]
+    },
+    {
+        "id": "01-0694",
+        "question": "Class 5A1 has 40 friends, including 24 who like to play badminton. Ask what percentage of the class 5A1 friends do you like to play badminton?",
+        "choices": [
+            "A. 40%",
+            "B. 60%",
+            "C. 24%",
+            "D. 100%"
+        ],
+        "eng_choices": [
+            "A. 40%",
+            "B. 60%",
+            "C. 24%",
+            "D. 100%"
+        ]
+    },
+    {
+        "id": "01-0698",
+        "question": "The result of multiplication 4.51 \\times 10 is:",
+        "choices": [
+            "A. 451",
+            "B. 4,51",
+            "C. 45,1",
+            "D. 45"
+        ],
+        "eng_choices": [
+            "A. 451",
+            "B. 4,51",
+            "C. 45,1",
+            "D. 45"
+        ]
+    },
+    {
+        "id": "01-0703",
+        "question": "Class 5/2 has 32 students, including 12 excellent students. The percentage of the number of excellent students and students in the class is:",
+        "choices": [
+            "A. 375 %",
+            "B. 37,5 %",
+            "C. 3,75 %",
+            "D. 0,375 %"
+        ],
+        "eng_choices": [
+            "A. 375 %",
+            "B. 37,5 %",
+            "C. 3,75 %",
+            "D. 0,375 %"
+        ]
+    },
+    {
+        "id": "01-0715",
+        "question": "The appropriate decimal number to fill in the dot place: 4 tons 562 kg =......... tons is:",
+        "choices": [
+            "A. 45,62",
+            "B. 4,562",
+            "C. 456,2",
+            "D. 4562"
+        ],
+        "eng_choices": [
+            "A. 45,62",
+            "B. 4,562",
+            "C. 456,2",
+            "D. 4562"
+        ]
+    },
+    {
+        "id": "01-0716",
+        "question": "The result of X in the expression: X \\div 2.04 = 7.5 \\div 5 is:",
+        "choices": [
+            "A. 3,03",
+            "B. 3,04",
+            "C. 3,05",
+            "D. 3,06"
+        ],
+        "eng_choices": [
+            "A. 3,03",
+            "B. 3,04",
+            "C. 3,05",
+            "D. 3,06"
+        ]
+    },
+    {
+        "id": "01-0717",
+        "question": "Calculating the area of a triangle with a base length of 30.5 dm and a height of 12 dm is:",
+        "choices": [
+            "A. 183 dm^{2}",
+            "B. 184 dm^{2}",
+            "C. 185 dm^{2}",
+            "D. 186 dm^{2}"
+        ],
+        "eng_choices": [
+            "A. 183 dm^{2}",
+            "B. 184 dm^{2}",
+            "C. 185 dm^{2}",
+            "D. 186 dm^{2}"
+        ]
+    }
+]

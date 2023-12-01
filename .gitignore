@@ -1,7 +1,9 @@
 cache/
 
-processed_train*.hf/
+processed*.hf/
 
 best_model/
 
 checkpoints/
+
+lora*/

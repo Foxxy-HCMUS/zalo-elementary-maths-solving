@@ -23,22 +23,10 @@ import re
 import json 
 
 
-VER = 2
+VER = 
   
 # model_path = "vinai/PhoGPT-7B5-Instruct" 
-augment_dataset = load_dataset("lukaemon/mmlu", "elementary_mathematics", cache_dir="cache")
-merged_dataset = augment_dataset["train"]
-for subset_name, subset_data in augment_dataset.items():
-    if subset_name != 'train':
-        merged_dataset = concatenate_datasets([merged_dataset, subset_data])
-
-eng_dataset = load_from_disk("processed_train_eng.hf")
-merged_dataset = merged_dataset.rename_columns({
-    "input": "question",
-    "target": "clean_answer",
-})
-merged_dataset = merged_dataset.add_column("explanation", [""] * len(merged_dataset))
-eng_dataset["train"] = concatenate_datasets([eng_dataset["train"], merged_dataset])
+eng_dataset = load_from_disk("processed.hf")
 
 device = "cuda:0"
 model_path = "microsoft/deberta-v3-large"
@@ -107,6 +95,22 @@ training_args = TrainingArguments(
     weight_decay=0.01,
     save_total_limit=2,
 )
+
+import numpy as np
+def map_at_3(predictions, labels):
+    map_sum = 0
+    pred = np.argsort(-1*np.array(predictions),axis=1)[:,:3]
+    for x,y in zip(pred,labels):
+        z = [1/i if y==j else 0 for i,j in zip([1,2,3],x)]
+        map_sum += np.sum(z)
+    return map_sum / len(predictions)
+
+def compute_metrics(p):
+    predictions = p.predictions
+    labels = p.label_ids
+    return {
+        "accuracy": sum(predictions.argmax(axis=1) == labels) / len(labels), 
+        "map@3": map_at_3(predictions.tolist(), labels.tolist())}
 
 
 @dataclass
