@@ -416,43 +416,40 @@ def train(
     model.save_pretrained(output_dir)
         
     # Start to Evaluate Data
-    model.eval()
+    # model.eval()
 
-    eval_rows = ValidateFunc(model=model,
-                             tokenizer=tokenizer,
-                             test_data=eng_dataset["test"],
-                             batch_size=eval_batch_size)
-    cnt = 0
-    total = len(eval_rows)
-    for eval_row, eval_item in zip(eval_rows, eng_dataset["test"]):
-        cnt += eval_row['answer'] == eval_item['answer']
+    # eval_rows = ValidateFunc(model=model,
+    #                          tokenizer=tokenizer,
+    #                          test_data=eng_dataset["test"],
+    #                          batch_size=eval_batch_size)
+    # cnt = 0
+    # total = len(eval_rows)
+    # for eval_row, eval_item in zip(eval_rows, eng_dataset["test"]):
+    #     cnt += eval_row['answer'] == eval_item['answer']
 
-    print(f"Eval Accuracy: {100 * cnt / total:.2f}")
+    # print(f"Eval Accuracy: {100 * cnt / total:.2f}")
     # Test data
     
     
     
-    # test_rows = ValidateFunc(model=model,
-    #                          tokenizer=tokenizer,
-    #                          test_path=test_path,
-    #                          batch_size=eval_batch_size)
-
-    # df = pd.DataFrame(test_rows)
-    # df.to_csv("zalo_submission.csv", index=False)
 
 def get_results(test_data, test_dialogs):
     rows = []
     for data, dialog in zip(test_data, test_dialogs):
-        id = data['id']
-        choices = data['choices']
+        id = data["id"]
         answer = None
         solution_return = dialog[-1]['content']
-        for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
-            if any(i in solution_return for i in d):
-                answer = choices[idx]
+        # for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
+        #     if any(i in solution_return for i in d):
+        #         answer = choices[idx]
+        solution = postprocess(solution_return).split(".")[0]
+        for choice, eng_choice in zip(data["choices"], data["eng_choices"]):
+            if solution == eng_choice or solution in eng_choice:
+                answer = choice
+                break   
 
         if answer is None:
-            rows.append({"id": id, "answer": choices[0]}) # if can't find
+            rows.append({"id": id, "answer": data["choices"][0]}) # if can't find
             print(id, solution_return)
         else:
             rows.append({"id": id, "answer": answer})

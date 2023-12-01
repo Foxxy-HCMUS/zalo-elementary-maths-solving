@@ -9,8 +9,8 @@ import re
 import json 
 from tqdm import tqdm
 import pandas as pd
+from time import time
 from datasets import Dataset, load_metric, load_from_disk
-eng_dataset = load_from_disk("processed.hf")
 
 
 SYS_PREFIX = "### System: "
@@ -20,47 +20,38 @@ INST_POSTFIX = "\n"
 OUTPUT_PREFIX = "### Assitant:\nAnswer:"
 OUTPUT_POSTFIX = ""
 
-base_model = "Intel/neural-chat-7b-v3-1"
-optim="paged_adamw_8bit"
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.bfloat16,
-)
-model = AutoModelForCausalLM.from_pretrained(
-                base_model,
-                device_map="auto",
-                trust_remote_code=True,
-                # quantization_config=bnb_config,
-                # use_safetensors=True,
-                cache_dir="./cache/"
-            )
-# model = prepare_model_for_kbit_training(model)
 
-
-peft_model_id = "lora-newral-chat"
-config = PeftConfig.from_pretrained(peft_model_id)
-model = PeftModel.from_pretrained(model, peft_model_id, device_map="auto")
 
 # model.print_trainable_parameters()
-def transformer_for_test(data):
-    dialogs = []
-    for example in data:
-        question = example["question"]
-        choices = example["eng_choices"]
-        # Prepare multiple-choice input
-        choices = "\n".join(choices)
-        dialog = [
-            {"role": "system", "content": "You are a math expert assistant. Your mission is to help users understand \
+def transformer_for_test(example):
+    question = example["question"]
+    choices = example["eng_choices"]
+    # Prepare multiple-choice input
+    choices = "\n".join(choices)
+    dialog = [
+        {"role": "system", "content": "You are a math expert assistant. Your mission is to help users understand \
 and solve elementary math problems: You must strictly follow the multi choice question and the choices \
 from users, First you need to think step by step and then give the answer choice, which is A, B, C or D \
 corresponding with the choices."},
-            {"role": "user", "content": f"Question: {question}\n{choices}"}
-        ]
-        dialogs.append(dialog)
+        {"role": "user", "content": f"Question: {question}\n{choices}"}
+    ]
+    return dialog
+#     dialogs = []
+#     for example in data:
+#         question = example["question"]
+#         choices = example["eng_choices"]
+#         # Prepare multiple-choice input
+#         choices = "\n".join(choices)
+#         dialog = [
+#             {"role": "system", "content": "You are a math expert assistant. Your mission is to help users understand \
+# and solve elementary math problems: You must strictly follow the multi choice question and the choices \
+# from users, First you need to think step by step and then give the answer choice, which is A, B, C or D \
+# corresponding with the choices."},
+#             {"role": "user", "content": f"Question: {question}\n{choices}"}
+#         ]
+#         dialogs.append(dialog)
 
-    return dialogs
+#     return dialogs
 
 def transformer_to_dialog(example):
     question = example["question"]
@@ -88,7 +79,7 @@ corresponding with the choices."""}
 
     return dialog
 
-def get_shots(examples=[dict(zip(eng_dataset["train"][:20],t)) for t in zip(*eng_dataset["train"][:20].values())], n_shots=3):
+def get_shots(examples, n_shots=3):
     shots = [transformer_to_dialog(example) for example in examples][:n_shots]
     new_msg = []
     if n_shots > 0:
@@ -96,8 +87,10 @@ def get_shots(examples=[dict(zip(eng_dataset["train"][:20],t)) for t in zip(*eng
             for msg in shot:
                 if msg["role"].upper() in ["USER", "ASSISTANT"]:
                     new_msg.append(msg["content"])
-    new_msg = "\n".join(new_msg)
-    return new_msg  
+        new_msg = "\n".join(new_msg)
+        return new_msg
+    else:
+        return None
 
 def get_dialog_string(dialog, shots=None):
     prompt = ""
@@ -130,32 +123,53 @@ def batch_inference(data, model, tokenizer, batch_size = 4, max_length = 1500, t
         )
     return predictions
 
+def inference_sample(data, model, tokenizer, max_length = 1500, temperature = 0.1, top_k = 50):
+    preds = ask_model(data, model, tokenizer, max_length = max_length, temperature =temperature, top_k = top_k)
+    return preds
+
 def postprocess(answer): # TODO
     return answer.split("\n")[0] 
 
 def get_results(test_data, test_dialogs):
     rows = []
     for data, dialog in zip(test_data, test_dialogs):
-        id = data['id']
-        choices = data['choices']
+        id = data["id"]
         answer = None
         solution_return = dialog[-1]['content']
         # for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
         #     if any(i in solution_return for i in d):
         #         answer = choices[idx]
         solution = postprocess(solution_return).split(".")[0]
-        for choice in choices:
-            if solution == choice or solution in choice:
+        for choice, eng_choice in zip(data["choices"], data["eng_choices"]):
+            if solution == eng_choice or solution in eng_choice:
                 answer = choice
                 break   
 
         if answer is None:
-            rows.append({"id": id, "answer": choices[0]}) # if can't find
+            rows.append({"id": id, "answer": data["choices"][0]}) # if can't find
             print(id, solution_return)
         else:
             rows.append({"id": id, "answer": answer})
 
     return rows
+
+def get_result(data, dialog):
+    id = data['id']
+    answer = None
+    solution_return = dialog[-1]['content']
+    # for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
+    #     if any(i in solution_return for i in d):
+    #         answer = choices[idx]
+    solution = postprocess(solution_return).split(".")[0]
+    for choice, eng_choice in zip(data["choices"], data["eng_choices"]):
+        if solution == eng_choice or solution in eng_choice:
+            answer = choice
+            break    
+
+    if answer is None:
+        return {"id": id, "answer": data["choices"][0]}
+    else:
+        return {"id": id, "answer": answer}
 
 
 
@@ -209,8 +223,8 @@ def translate_choice(example):
     del output_ids
     torch.cuda.empty_cache()
     
-    choices = example["choices"]
-    for i, choice in enumerate(example["choices"]):
+    choices = example["choices"].copy()
+    for i, choice in enumerate(choices):
         splited_choice = re.findall("([A-D]). (.+)", choice)[0] # Tách kí tự [ABCD] và nội dung cần dịch
         check, choices[i] = check_number(splited_choice[-1]) # Nếu nội dung cần dịch là các con số thì không dịch
         choices[i] = splited_choice[0] + ". " + choices[i] 
@@ -300,18 +314,18 @@ def write_json(path, obj):
     with open(path, "w", encoding="utf-8") as outfile:
         outfile.write(json_object)
 
-def ValidateFunc(model, tokenizer, test_path = None, test_data = None, batch_size = 8):
+def ValidateFunc(model, tokenizer, shots=None, test_path = None, test_data = None, batch_size = 8):
     if test_data is None and test_path is not None:
         test_data = read_json(test_path)['data']
         
     test_data = [translate_choice(sample) for sample in test_data]
     write_json("./infer_results/translated_text.json", test_data)
 
-    test_dialogs = transformer_for_test(test_data)
-    shots = get_shots(n_shots=3)
+    test_dialogs = [transformer_for_test(dat) for dat in test_data]
+
     prompts = [get_dialog_string(d, shots) for d in test_dialogs]
     write_json("./infer_results/test_dialogs.json", prompts )
-    responses = batch_inference(prompts, model, tokenizer, batch_size=1)
+    responses = batch_inference(prompts, model, tokenizer, batch_size=batch_size)
     write_json("./infer_results/results.json", responses)
 
     for dialog, response in zip(test_dialogs, responses):
@@ -322,17 +336,18 @@ def ValidateFunc(model, tokenizer, test_path = None, test_data = None, batch_siz
 
     rows = get_results(test_data, test_dialogs)
     return rows
+    
 
 
-tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True, cache_dir="./cache/")
-tokenizer.pad_token = tokenizer.eos_token
-model.config.eos_token_id = tokenizer.eos_token_id
-model.config.pad_token_id = tokenizer.pad_token_id
+# tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True, cache_dir="./cache/")
+# tokenizer.pad_token = tokenizer.eos_token
+# model.config.eos_token_id = tokenizer.eos_token_id
+# model.config.pad_token_id = tokenizer.pad_token_id
 
-test_rows = ValidateFunc(model=model,
-                             tokenizer=tokenizer,
-                             test_path="./data/math_test.json",
-                             batch_size=8)
+# test_rows = ValidateFunc(model=model,
+#                              tokenizer=tokenizer,
+#                              test_path="./data/math_test.json",
+#                              batch_size=1) # examples=[dict(zip(eng_dataset["train"][:20],t)) for t in zip(*eng_dataset["train"][:20].values())],
 
-df = pd.DataFrame(test_rows)
-df.to_csv("zalo_submission.csv", index=False)
+# df = pd.DataFrame(test_rows)
+# df.to_csv("zalo_submission.csv", index=False)

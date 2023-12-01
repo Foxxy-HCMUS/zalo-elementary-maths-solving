@@ -3,10 +3,10 @@
         "id": "01-0203",
         "question": "A store sold 30% of its existing stock and earned VND15, 000, 000. Ask how much money the store earned if it sold out?",
         "choices": [
-            "A. 4 500 000 VND",
-            "B. 45 000 000 VND",
-            "C. 50 000 000 VND",
-            "D. 450 000 000 VND"
+            "A. 4 500 000 đồng",
+            "B. 45 000 000 đồng",
+            "C. 50 000 000 đồng",
+            "D. 450 000 000 đồng"
         ],
         "eng_choices": [
             "A. 4 500 000 VND",
@@ -19,10 +19,10 @@
         "id": "01-0206",
         "question": "A cyclist from A started at 7 o'clock at 12km/h. At 8 o'clock a motorcyclist from A also chased the cyclist at 42km/h. What time did the motorcyclist catch up with the cyclist?",
         "choices": [
-            "A. 24 minutes",
-            "B. 1 hours",
-            "C. 7 hours 24 minutes",
-            "D. 8 hours 24 minutes"
+            "A. 24 phút",
+            "B. 1 giờ",
+            "C. 7 giờ 24 phút",
+            "D. 8 giờ 24 phút"
         ],
         "eng_choices": [
             "A. 24 minutes",
@@ -35,10 +35,10 @@
         "id": "01-0207",
         "question": "If the side of the cube is 2 times larger, how many times is the area around it larger?",
         "choices": [
-            "A. 2 times",
-            "B. 4 times",
-            "C. 6 times",
-            "D. 8 times"
+            "A. 2 lần",
+            "B. 4 lần",
+            "C. 6 lần",
+            "D. 8 lần"
         ],
         "eng_choices": [
             "A. 2 times",
@@ -115,10 +115,10 @@
         "id": "01-0219",
         "question": "4 hours 45 minutes + 3 hours 32 minutes =.......",
         "choices": [
-            "A. 7 hours 17 minutes",
-            "B. 7 hours 77 minutes",
-            "C. 8 hours 17 minutes",
-            "D. 7 hours 77 minutes"
+            "A. 7 giờ 17 phút",
+            "B. 7 giờ 77 phút",
+            "C. 8 giờ 17 phút",
+            "D. 7 giờ 77 phút"
         ],
         "eng_choices": [
             "A. 7 hours 17 minutes",
@@ -211,10 +211,10 @@
         "id": "01-0227",
         "question": "The 5 digits of 162.57 indicate:",
         "choices": [
-            "A. 5 units",
-            "B. Five percent.",
-            "C. Five tens.",
-            "D. Five tenths."
+            "A. 5 đơn vị",
+            "B. 5 phần trăm",
+            "C. 5 chục",
+            "D. 5 phần mười"
         ],
         "eng_choices": [
             "A. 5 units",
@@ -291,10 +291,10 @@
         "id": "01-0240",
         "question": "0.12 hours \\div 2 \\times 3 has the result that:",
         "choices": [
-            "A. 0,02 hours",
-            "B. 0,2 hours",
-            "C. 0,18 hours",
-            "D. 0,018 hours"
+            "A. 0,02 giờ",
+            "B. 0,2 giờ",
+            "C. 0,18 giờ",
+            "D. 0,018 giờ"
         ],
         "eng_choices": [
             "A. 0,02 hours",
@@ -387,10 +387,10 @@
         "id": "01-0254",
         "question": "1.5 hours =... minutes",
         "choices": [
-            "A. 1 hours 2 minutes",
-            "B. 1 hours 5 minutes",
-            "C. 90 minutes",
-            "D. 1 hours 50 minutes"
+            "A. 1 giờ 2 phút",
+            "B. 1 giờ 5 phút",
+            "C. 90 phút",
+            "D. 1 giờ 50 phút"
         ],
         "eng_choices": [
             "A. 1 hours 2 minutes",
@@ -531,10 +531,10 @@
         "id": "01-0273",
         "question": "The time interval from 10 minutes to 7: 30 p.m. is:",
         "choices": [
-            "A. 10 minutes",
-            "B. 20 minutes",
-            "C. 30 minutes",
-            "D. 40 minutes"
+            "A. 10 phút",
+            "B. 20 phút",
+            "C. 30 phút",
+            "D. 40 phút"
         ],
         "eng_choices": [
             "A. 10 minutes",
@@ -563,10 +563,10 @@
         "id": "01-0277",
         "question": "From 9: 00 to 9: 30: 00: there are:",
         "choices": [
-            "A. 10 minutes",
-            "B. 20 minutes",
-            "C. 30 minutes",
-            "D. 40 minutes"
+            "A. 10 phút",
+            "B. 20 phút",
+            "C. 30 phút",
+            "D. 40 phút"
         ],
         "eng_choices": [
             "A. 10 minutes",
@@ -595,9 +595,9 @@
         "id": "01-0292",
         "question": "A worker making a product takes 1 minute and 12 seconds. How much time does a worker spend making 8 products?",
         "choices": [
-            "A. 1 minutes 12 seconds",
-            "B. 8 minutes 36 seconds",
-            "C. 9 minutes 36 seconds"
+            "A. 1 phút 12 giây",
+            "B. 8 phút 36 giây",
+            "C. 9 phút 36 giây"
         ],
         "eng_choices": [
             "A. 1 minutes 12 seconds",
@@ -625,9 +625,9 @@
         "id": "01-0296",
         "question": "A primary school has 600 students, the number of female students accounts for 55% of the school's students. The number of male students of that primary school is:",
         "choices": [
-            "A. 270 students",
-            "B. 330 students",
-            "C. 45 students"
+            "A. 270 học sinh",
+            "B. 330 học sinh",
+            "C. 45 học sinh"
         ],
         "eng_choices": [
             "A. 270 students",
@@ -815,10 +815,10 @@
         "id": "01-0329",
         "question": "A car travels at 51 km/h. How many meters per minute does the car travel at?",
         "choices": [
-            "A. 850 m/min",
-            "B. 805 m/min",
-            "C. 510 m/min",
-            "D. 5100 m/min"
+            "A. 850 m/phút",
+            "B. 805 m/phút",
+            "C. 510 m/phút",
+            "D. 5100 m/phút"
         ],
         "eng_choices": [
             "A. 850 m/min",
@@ -877,9 +877,9 @@
         "id": "01-0339",
         "question": "20 tons =.......... tons. The appropriate number to fill in the dot place is:",
         "choices": [
-            "A. 200 quintal",
-            "B. 0,02 quintal",
-            "C. 0,2 quintal"
+            "A. 200 tạ",
+            "B. 0,02 tạ",
+            "C. 0,2 tạ"
         ],
         "eng_choices": [
             "A. 200 quintal",
@@ -1127,7 +1127,7 @@
         "choices": [
             "A. 45300 m^{2}",
             "B. 453 m^{2}",
-            "C. 453.0 m^{2}"
+            "C. 453,0 m^{2}"
         ],
         "eng_choices": [
             "A. 45300 m^{2}",
@@ -1153,10 +1153,10 @@
         "id": "01-0389",
         "question": "The digit 9 in 391,132 is in the row:",
         "choices": [
-            "A. Squeeze",
-            "B. Hundreds",
-            "C. Tenths",
-            "D. Percent"
+            "A. Chục",
+            "B. Trăm",
+            "C. Phần mười",
+            "D. Phần trăm"
         ],
         "eng_choices": [
             "A. Squeeze",
@@ -1249,10 +1249,10 @@
         "id": "01-0401",
         "question": "The appropriate number of filling dots to 3 tons 15kg =...... tons is:",
         "choices": [
-            "A. 350 tons",
-            "B. 3,015 tons",
-            "C. 3.05 Tons",
-            "D. 3,005 tons"
+            "A. 350 tấn",
+            "B. 3,015 tấn",
+            "C. 3,05 tấn",
+            "D. 3,005 tấn"
         ],
         "eng_choices": [
             "A. 350 tons",
@@ -1307,9 +1307,9 @@
         "id": "01-0409",
         "question": "The 7 digit in 169.57 indicates:",
         "choices": [
-            "A. 7 units",
-            "B. Seven tenths.",
-            "C. Seven percent."
+            "A. 7 đơn vị",
+            "B. 7 phần mười",
+            "C. 7 phần trăm"
         ],
         "eng_choices": [
             "A. 7 units",
@@ -1349,10 +1349,10 @@
         "id": "01-0413",
         "question": "The 9 digits of the 427,098 indicate:",
         "choices": [
-            "A. Nine thousandths.",
-            "B. Nine tenths.",
-            "C. Nine tens.",
-            "D. Nine percent."
+            "A. 9 phần nghìn",
+            "B. 9 phần mười",
+            "C. 9 chục",
+            "D. 9 phần trăm"
         ],
         "eng_choices": [
             "A. Nine thousandths.",
@@ -1493,10 +1493,10 @@
         "id": "01-0434",
         "question": "Write the appropriate number in the dot: 627 m^{2} = ha",
         "choices": [
-            "A. 627 acres",
-            "B. 0.0627 ha",
-            "C. 6.027 ha",
-            "D. 6.27 ha"
+            "A. 627 ha",
+            "B. 0,0627 ha",
+            "C. 6,027 ha",
+            "D. 6,27 ha"
         ],
         "eng_choices": [
             "A. 627 acres",
@@ -1525,10 +1525,10 @@
         "id": "01-0437",
         "question": "The numbers 5.7; 6.02; 4.23; 4.32; 5.3 are written in order from least to greatest:",
         "choices": [
-            "A. 5, 7, 6, 02, 4, 23, 4, 32, 5, 3",
-            "B. 6.02; 5.7; 5.3; 4.32; 4.23",
-            "C. 4.23; 5.3; 5.7; 6.02; 4.32",
-            "D. 4.23; 4.32; 5.3; 5.7; 6.02"
+            "A. 5,7; 6,02; 4,23; 4,32; 5,3",
+            "B. 6,02; 5,7; 5,3; 4,32; 4,23",
+            "C. 4,23; 5,3; 5,7; 6,02; 4,32",
+            "D. 4,23; 4,32; 5,3; 5,7; 6,02"
         ],
         "eng_choices": [
             "A. 5, 7, 6, 02, 4, 23, 4, 32, 5, 3",
@@ -1733,10 +1733,10 @@
         "id": "01-0483",
         "question": "Which of the following decimal sequences are written in order from largest to smallest?",
         "choices": [
-            "A. 8; 8.76; 8.093; 8.901",
-            "B. 5.494; 5.493; 5.392; 5.001",
+            "A. 8; 8,76; 8,093; 8,901",
+            "B. 5,494; 5,493; 5,392; 5,001",
             "C. 6,732; 7; 7,009; 7,013",
-            "D. 13; 12.47; 12.51; 12.001"
+            "D. 13; 12,47; 12,51; 12,001"
         ],
         "eng_choices": [
             "A. 8; 8.76; 8.093; 8.901",
@@ -1871,10 +1871,10 @@
         "id": "01-0500",
         "question": "Give the decimal 5.432. If you move the decimal to the right of a digit, which row does the 3 belong in?",
         "choices": [
-            "A. Tens",
-            "B. Line Unit",
-            "C. Percents",
-            "D. Tenths place"
+            "A. Hàng chục",
+            "B. Hàng đơn vị",
+            "C. Hàng phần trăm",
+            "D. Hàng phần mười"
         ],
         "eng_choices": [
             "A. Tens",
@@ -1949,10 +1949,10 @@
         "id": "01-0519",
         "question": "A rectangle is twice as long as it is wide. If the length is increased by 5 dm and the width and height are the same, the volume of the rectangle increases by 1.2 times. How many times does the volume of the rectangle increase if the width is increased by 5 dm, the length is reduced by 5 dm and the height is doubled?",
         "choices": [
-            "A. 1.12 times",
-            "B. 2.24 times",
-            "C. 1.44 times",
-            "D. 2.28 times"
+            "A. 1,12 lần",
+            "B. 2,24 lần",
+            "C. 1,44 lần",
+            "D. 2,28 lần"
         ],
         "eng_choices": [
             "A. 1.12 times",
@@ -1981,10 +1981,10 @@
         "id": "01-0529",
         "question": "Team consists of 10 workers who complete a job in 30 days. If the team has 20 workers, how long will the work be completed?",
         "choices": [
-            "A. 10 days of",
-            "B. 60 days of",
-            "C. 40 days",
-            "D. 15 days of"
+            "A. 10 ngày",
+            "B. 60 ngày",
+            "C. 40 ngày",
+            "D. 15 ngày"
         ],
         "eng_choices": [
             "A. 10 days of",
@@ -2061,10 +2061,10 @@
         "id": "01-0551",
         "question": "1 minute 15 seconds =?",
         "choices": [
-            "A. 1,15 minutes",
-            "B. 1,25 minutes",
-            "C. 115 seconds",
-            "D. 1,25 seconds"
+            "A. 1,15 phút",
+            "B. 1,25 phút",
+            "C. 115 giây",
+            "D. 1,25 giây"
         ],
         "eng_choices": [
             "A. 1,15 minutes",
@@ -2221,10 +2221,10 @@
         "id": "01-0576",
         "question": "A motorcycle traveling 90 km takes 2 hours and 30 minutes. The speed of that motorcycle is:",
         "choices": [
-            "A. 36 km/hour",
-            "B. 40 km/hour",
-            "C. 45 km/hour",
-            "D. 225 Km/h"
+            "A. 36 km/giờ",
+            "B. 40 km/giờ",
+            "C. 45 km/giờ",
+            "D. 225 Km/giờ"
         ],
         "eng_choices": [
             "A. 36 km/hour",
@@ -2387,10 +2387,10 @@
         "id": "01-0607",
         "question": "How many triangles are there in the figure below? Circle the letter that precedes the correct answer.",
         "choices": [
-            "A. 12 Triangles",
-            "B. 13 Triangles",
-            "C. 14 Triangles",
-            "D. 15 Triangles"
+            "A. 12 hình tam giác",
+            "B. 13 hình tam giác",
+            "C. 14 hình tam giác",
+            "D. 15 hình tam giác"
         ],
         "eng_choices": [
             "A. 12 Triangles",
@@ -2675,10 +2675,10 @@
         "id": "01-0650",
         "question": "After a 20% discount, the price of a book is only 7200 VND. So before the discount, the price of that book is:",
         "choices": [
-            "A. 9000 VND",
-            "B. 36000 VND",
-            "C. 6400 VND",
-            "D. 14400 VND"
+            "A. 9000 đồng",
+            "B. 36000 đồng",
+            "C. 6400 đồng",
+            "D. 14400 đồng"
         ],
         "eng_choices": [
             "A. 9000 VND",
@@ -2723,10 +2723,10 @@
         "id": "01-0661",
         "question": "The appropriate number written in the dot of 6 days 13 hours =...... hours",
         "choices": [
-            "A. 154 hours",
-            "B. 150 hours",
-            "C. 144 hours",
-            "D. 157 hours"
+            "A. 154 giờ",
+            "B. 150 giờ",
+            "C. 144 giờ",
+            "D. 157 giờ"
         ],
         "eng_choices": [
             "A. 154 hours",

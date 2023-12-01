@@ -1,3 +1,12 @@
+# Usage
+__Preprocess training data__
+```bash
+python preprocess.py --seed 42 --train-path "data/math_train.json" \
+--cache-dir "./cache" --test-size 0.1 --output-path "processed.hf"
+```
+
+__Finetuning model with qlora__
+```bash
 accelerate launch finetune.py --base_model "Intel/neural-chat-7b-v3-1" \
 --data_path "./data/math_train.json" --test_path "./data/math_test.json" \
 --learning_rate 5e-5 --num_epochs 1 --eval_batch_size 1 \
@@ -7,3 +16,9 @@ accelerate launch finetune.py --base_model "Intel/neural-chat-7b-v3-1" \
 --adam_beta1 0.9 --adam_beta2 0.95 --adam_epsilon 1e-5 \
 --output_dir './lora-newral-chat' \
 --train_qlora True
+```
+
+__Make predictions__
+```python
+bash predict.sh
+```

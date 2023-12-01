@@ -1,6 +1,6 @@
 cache/
 
-processed*.hf/
+*.hf/
 
 best_model/
 
