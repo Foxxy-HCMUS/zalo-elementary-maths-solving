@@ -57,7 +57,7 @@ def transformer_to_dialog(example):
     dialog = [
         {"role": "system", "content": """You are a math expert assistant. Your mission is to help users understand \
 and solve elementary math problems: You must strictly follow the multi choice question and the choices \
-from users, First you need to think step by step and then give the answer choice, which is A, B, C or D \
+from users, first you need to think step by step and then give the answer choice, which is A, B, C or D \
 corresponding with the choices."""}
     ]
     if explanation:
@@ -84,7 +84,7 @@ def transformer_for_test(example):
     dialog = [
         {"role": "system", "content": """You are a math expert assistant. Your mission is to help users understand \
 and solve elementary math problems: You must strictly follow the multi choice question and the choices \
-from users, First you need to think step by step and then give the answer choice, which is A, B, C or D \
+from users, first you need to think step by step and then give the answer choice, which is A, B, C or D \
 corresponding with the choices."""},
         {"role": "user", "content": f"Question: {question}\n{choices}"}
     ]
@@ -284,8 +284,8 @@ def train(
         bnb_config = BitsAndBytesConfig(
             load_in_8bit=True,
             bnb_8bit_use_double_quant=True,
-            # bnb_4bit_quant_type="nf4",
-            # bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
         )
         try:
             model = AutoModelForCausalLM.from_pretrained(
@@ -366,15 +366,18 @@ def train(
     def compute_metrics(eval_preds):
         predictions, labels = eval_preds
         predictions = np.argmax(predictions, axis=1)
+        # accuracy_val = (predictions == labels).mean()
         perplexity_val = perplexity.compute(predictions=predictions, references=labels)
-        return {"perplexity": perplexity_val,
-                }
+        return {
+                # "accuracy": accuracy_val,
+                "perplexity": perplexity_val,
+            }
 
     trainer = transformers.Trainer(
         model=model,
         train_dataset=train_ds,
         eval_dataset=val_ds,
-        # compute_metrics=compute_metrics,
+        compute_metrics=compute_metrics,
         args=transformers.TrainingArguments(
             per_device_train_batch_size=micro_batch_size,
             per_device_eval_batch_size=micro_batch_size,
@@ -431,7 +434,8 @@ def train(
     # Test data
     
     
-    
+def postprocess(answer): # TODO
+    return answer.split("\n")[0]     
 
 def get_results(test_data, test_dialogs):
     rows = []

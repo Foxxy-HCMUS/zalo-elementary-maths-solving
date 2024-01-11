@@ -30,7 +30,7 @@ tokenizer.pad_token = tokenizer.eos_token
 model.config.eos_token_id = tokenizer.eos_token_id
 model.config.pad_token_id = tokenizer.pad_token_id
 
-NUM_SHOTS = 3
+NUM_SHOTS = 5
 shots = get_shots(
     examples=[dict(zip(eng_dataset["train"][:NUM_SHOTS],t)) for t in zip(*eng_dataset["train"][:NUM_SHOTS].values())], 
     n_shots=NUM_SHOTS)

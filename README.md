@@ -22,3 +22,9 @@ __Make predictions__
 ```python
 bash predict.sh
 ```
+
+# Version History
+__Current Version__: v0.1
+Version | Description
+--- | ---
+v0.1 | Fine tuning for neural-chat-7b-v3-1
