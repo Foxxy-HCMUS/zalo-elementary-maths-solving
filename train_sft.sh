@@ -1,0 +1,39 @@
+python sft.py \
+    --model_type auto \
+    --model_name_or_path foxxy-hm/zephyr-7b-beta-vi-math \
+    --train_file_dir datasets/finetune \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 4 \
+    --do_train \
+    --do_eval \
+    --use_peft True \
+    --fp16 \
+    --model_max_length 1024 \
+    --num_train_epochs 1 \
+    --learning_rate 2e-5 \
+    --warmup_ratio 0.05 \
+    --weight_decay 0.05 \
+    --logging_strategy steps \
+    --logging_steps 10 \
+    --eval_steps 50 \
+    --evaluation_strategy steps \
+    --save_steps 500 \
+    --save_strategy steps \
+    --save_total_limit 13 \
+    --gradient_accumulation_steps 1 \
+    --preprocessing_num_workers 4 \
+    --output_dir outputs-sft-zephyr-7b-beta-vi-math-v1 \
+    --overwrite_output_dir \
+    --ddp_timeout 30000 \
+    --logging_first_step True \
+    --lora_r 16 \
+    --lora_alpha 32 \
+    --lora_dropout 0.05 \
+    --lora_target_modules all \
+    --torch_dtype float16 \
+    --device_map auto \
+    --report_to tensorboard \
+    --ddp_find_unused_parameters False \
+    --gradient_checkpointing True \
+    --gradient_checkpointing_kwargs: use_reentrant: false \
+    --cache_dir ./cache

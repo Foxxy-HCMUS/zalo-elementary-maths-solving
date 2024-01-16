@@ -7,3 +7,7 @@ best_model/
 checkpoints/
 
 lora*/
+
+output*/
+
+wandb/

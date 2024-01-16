@@ -1,30 +1,49 @@
 # Usage
-__Preprocess training data__
+__Install Dependencies__
 ```bash
-python preprocess.py --seed 42 --train-path "data/math_train.json" \
---cache-dir "./cache" --test-size 0.1 --output-path "processed.hf"
+pip install -r requirements.txt
+```
+If you get the errors from `bitsandbytes`, please install from source. 
+
+__Login__
+```bash
+huggingface-cli login
+wandb login
 ```
 
-__Finetuning model with qlora__
+__Pretraining__
 ```bash
-accelerate launch finetune.py --base_model "Intel/neural-chat-7b-v3-1" \
---data_path "./data/math_train.json" --test_path "./data/math_test.json" \
---learning_rate 5e-5 --num_epochs 1 --eval_batch_size 1 \
---lora_r 16 --lora_alpha 32 --lora_target_modules '[q_proj,v_proj]' --lora_dropout 0.05 \
---batch_size 4 --val_set_size 0.1 --cutoff_len 768 --micro_batch_size 2 --max_grad_norm 1 \
---optim "adamw_torch" --warmup_ratio 0.05 --weight_decay 0.01 \
---adam_beta1 0.9 --adam_beta2 0.95 --adam_epsilon 1e-5 \
---output_dir './lora-newral-chat' \
---train_qlora True
+bash run_pt.sh
+```
+
+__Finetune with SFTTrainer__
+using [HuggingFaceH4/zephyr-7b-beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) as base model
+```bash
+ACCELERATE_LOG_LEVEL=info accelerate launch --config_file multi_gpu.yaml --num_processes=1 sft.py lora_config.yaml
 ```
 
 __Make predictions__
-```python
-bash predict.sh
+```bash
+python inference.py --model_name hllj/zephyr-7b-beta-vi-math 
+                    --peft_model outputs-sft-zephyr-beta-v1/checkpoint-1500/ 
+                    --load_in 4bit/8bit 
+                    --max_new_tokens 512 
+                    --temperature 0.1
+```
+
+__VLLM Inference__
+Because vllm doesn't allow using LoRA outputs but the merged weight itself
+```bash
+python merge_peft_adapter.py --model_type auto 
+                             --base_model /space/hotel/phit/contest/zalo/ElementaryMathsSolving/outputs-pt-zephyr-beta-v1 
+                             --tokenizer_path /space/hotel/phit/contest/zalo/ElementaryMathsSolving/outputs-sft-zephyr-beta-v1/tokenizer.model
+                             --lora_model /space/hotel/phit/contest/zalo/ElementaryMathsSolving/outputs-sft-zephyr-beta-v1/adapter_model.safetensors
+                             --output_dir output
 ```
 
 # Version History
-__Current Version__: v0.1
+__Current Version__: v0.2
 Version | Description
 --- | ---
 v0.1 | Fine tuning for neural-chat-7b-v3-1
+v0.2 | Testing for something new
